@@ -33,3 +33,5 @@ en:
     no_results_link: "http://library.stanford.edu/search/website"
   search_form:
     placeholder: "catalog + articles + website + more"
+  feedback_form:
+    success: '<strong>Thank you!</strong> Your feedback has been sent.'

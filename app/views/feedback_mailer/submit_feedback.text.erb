@@ -1,0 +1,11 @@
+Name: <%= @mailer_parser.name %>
+Email: <%= @mailer_parser.email %>
+
+Comment:
+<%= @mailer_parser.message.html_safe %>
+
+Message sent from: <%= @mailer_parser.url %>
+Host: <%= Settings.HOSTNAME %>
+IP: <%= @mailer_parser.ip %>
+User agent: <%= @mailer_parser.user_agent %>
+Viewport: <%= @mailer_parser.viewport %>

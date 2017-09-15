@@ -1,0 +1,5 @@
+<label class='col-md-3 col-form-label text-md-right'>
+  Reporting from
+</label>
+<div class=' col-md-9 reporting-from-field'><%= request.referer %></div>
+<%= hidden_field_tag :url, request.referer, class:'reporting-from-field' %>

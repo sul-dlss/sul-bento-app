@@ -2,9 +2,16 @@
   <div id="top-navbar">
     <ul>
       <li><a href='https://library.stanford.edu/myaccount'>My Account</a></li>
-      <li><a href='https://library.stanford.edu/ask/email/feedback'>Feedback</a></li>
+      <li>
+        <%= link_to main_app.feedback_path, data: { toggle: 'collapse', target: '#feedback-form'}, 'aria-expanded' => 'false', 'aria-controls' => 'feedback-form' do %>
+          Feedback
+        <% end %>
+      </li>
     </ul>
   </div>
+</div>
+<div id="feedback-form" class='collapse'>
+  <%= render 'shared/feedback_forms/form' if show_feedback_form? %>
 </div>
 <div id="masthead-container">
   <div id="masthead">
