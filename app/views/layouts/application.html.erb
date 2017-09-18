@@ -6,7 +6,7 @@
   <head>
     <title><%= content_for(:title) %></title>
     <meta content="ie=edge, chrome=1" http-equiv="x-ua-compatible"/>
-    <link rel="search" type="application/opensearchdescription+xml" href="<%= opensearch_path %>" title="<%= t('opensearch_description') %>"/>
+    <link rel="search" type="application/opensearchdescription+xml" href="<%= quick_search.opensearch_path %>" title="<%= t('opensearch_description') %>"/>
     <!-- css -->
     <%= stylesheet_link_tag 'application' %>
 
@@ -26,6 +26,7 @@
     <div id="content" role="document" class="page">
       <div class="">
         <main id="main-content" role="main" class="">
+          <%= render partial: 'shared/flash_msg', layout: 'shared/flash_messages' %>
           <div class="skip-link">
             <a href="#main-content"></a>
           </div>
