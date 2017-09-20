@@ -9,5 +9,9 @@ module QuickSearch
     def loaded_link
       Settings.CATALOG_QUERY_URL.to_s % { q: URI.escape(q.to_s) }
     end
+
+    def database_results
+      @response.database_results(q)
+    end
   end
 end

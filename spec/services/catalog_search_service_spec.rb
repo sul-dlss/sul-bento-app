@@ -13,4 +13,5 @@ RSpec.describe CatalogSearchService do
 
   it { expect(service).to be_an AbstractSearchService }
   it { expect(service.search(query)).to be_an CatalogSearchService::Response }
+  pending 'mimic database results facet'
 end
