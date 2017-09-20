@@ -23,6 +23,16 @@
         <ol>
             <%= render partial: '/quick_search/search/result', collection: searcher.results %>
         </ol>
+
+        <% if searcher.respond_to?(:database_results) %>
+          <% dbresults = searcher.database_results %>
+          <% if dbresults[:hits].positive? %>
+            <h6 class="result-database-hits">
+              Your search also found <a href="<%= dbresults[:link] -%>"><%= number_with_delimiter(dbresults[:hits]) -%> topic-specific databases</a>.
+            </h6>
+          <% end %>
+        <% end %>
+
         <p class="see-all-results">
             <% unless defined? searcher.loaded_link_mobile %>
                 <%= render partial: '/quick_search/search/see_all', locals: {service_name: service_name, total: total, module_link: searcher.loaded_link} %>

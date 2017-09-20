@@ -30,6 +30,18 @@ class CatalogSearchService < AbstractSearchService
       json['response']['facets']
     end
 
+    def database_results(q)
+      hits = 0
+      if highlighted_facet['items'].present?
+        database = highlighted_facet['items'].find { |i| i['value'] == 'Database' }
+        hits = database['hits'].to_i if database.present?
+      end
+      {
+        hits: hits,
+        link: QUERY_URL.to_s % { q: q } + '&f[format_main_ssim][]=Database'
+      }
+    end
+
     private
 
     def json

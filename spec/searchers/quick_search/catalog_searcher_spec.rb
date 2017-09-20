@@ -16,4 +16,5 @@ RSpec.describe QuickSearch::CatalogSearcher do
     searcher.search # loads response
     expect(searcher.results).to be_an(Array)
   end
+  it { expect(searcher.respond_to?(:database_results)).to be_truthy }
 end
