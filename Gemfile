@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'quick_search-core'
+gem 'quick_search-core', git:'https://github.com/NCSU-Libraries/quick_search.git', ref:'2e2c3f8'
 gem 'jquery-rails'
 gem 'bootstrap', '>= 4.0.0.beta', '< 5'
 gem 'autoprefixer-rails', '~> 8.0' # pin to 8.x until we can update to quick_search-core 0.2+ (without therubyracer dependency)

@@ -1,3 +1,18 @@
+GIT
+  remote: https://github.com/NCSU-Libraries/quick_search.git
+  revision: 2e2c3f8682eed63a2bf2c008fa77f04ff9dd6a03
+  ref: 2e2c3f8
+  specs:
+    quick_search-core (0.2.0)
+      fastimage
+      httpclient
+      jquery-rails (~> 4.3)
+      kaminari
+      modernizr-rails
+      mysql2
+      nokogiri
+      rails (~> 5.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -216,14 +231,6 @@ GEM
     quick_search-arxiv_searcher (0.0.1)
       nokogiri (~> 1.6)
       quick_search-core (~> 0)
-    quick_search-core (0.2.0)
-      fastimage
-      httpclient
-      kaminari
-      modernizr-rails
-      mysql2
-      nokogiri
-      rails (~> 5.0)
     quick_search-generic_theme (0.2.0)
       font-awesome-sass (~> 4.4)
       foundation-rails (= 5.4.5)
@@ -385,7 +392,7 @@ DEPENDENCIES
   okcomputer
   puma (~> 3.11)
   quick_search-arxiv_searcher
-  quick_search-core
+  quick_search-core!
   quick_search-generic_theme
   quick_search-open_library_searcher
   quick_search-placeholder_searcher
