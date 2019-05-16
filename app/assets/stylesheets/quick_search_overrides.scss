@@ -15,13 +15,14 @@
 .search-container {
   label {
     color: $cardinal-red;
-    font-size: 40px;
-    padding-right: 20px;
   }
 
   .main-search-form {
+    .form-group.row{
+      align-items: center;
+    }
     .search-input-container {
-      padding-top: 18px;
+      width: 60%;
     }
   }
 }
