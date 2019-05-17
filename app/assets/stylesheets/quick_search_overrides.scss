@@ -8,8 +8,10 @@
 
 .module-contents {
   background-color: $white;
+  border: 1px solid $cloud;
   border-top: 5px solid $cardinal-red;
   padding: 10px 15px;
+  margin-bottom: 15px;
 }
 
 .search-container {
