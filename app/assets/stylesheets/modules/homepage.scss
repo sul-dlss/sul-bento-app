@@ -3,9 +3,12 @@
 }
 
 .homepage-panels {
+  .card {
+    border: 1px solid $cloud;
+    border-radius: 0;
+  }
   .card-body {
     background-color: $white;
-    border: 1px solid $cloud;
     padding: 0;
   }
 
@@ -27,15 +30,14 @@
   padding-top: 25px;
   justify-content: center;
 
-  .card-body {
-    padding-left: 55px;
+  .card {
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   img {
     width: 40px;
-    position: absolute;
-    left: 20px;
-    top: 20px;
+    padding: 10px 0 10px 10px;
   }
 }
 
@@ -43,9 +45,6 @@
   .more-search-tools {
     img {
       width: 20px;
-      position: absolute;
-      left: 30px;
-      top: 15px;
     }
   }
 }
