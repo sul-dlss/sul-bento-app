@@ -2,7 +2,16 @@
   padding-bottom: 30px;
 }
 
+
+.bento-panels {
+  .card {
+    min-width: 200px;
+    max-width: 270px;
+  }
+}
+
 .homepage-panels {
+
   .card {
     border: 1px solid $cloud;
     border-radius: 0;
@@ -43,6 +52,15 @@
   .more-search-tools {
     img {
       width: 30px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .bento-panels {
+    .card {
+      min-width: 40%;
+      max-width: none;
     }
   }
 }
