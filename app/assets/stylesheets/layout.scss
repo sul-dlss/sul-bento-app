@@ -1,6 +1,10 @@
-html, body {overflow-x: hidden;}
+html, body {
+  overflow-x: hidden;
+}
 
-#global-footer * {box-sizing: border-box;}
+#global-footer * {
+  box-sizing: border-box;
+}
 
 #masthead-container, #subnavbar-container, #sul-footer-container, #top-navbar-container {
   border: 0;
