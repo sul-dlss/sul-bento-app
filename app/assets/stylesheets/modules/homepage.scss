@@ -5,16 +5,23 @@
 
 .bento-panels {
   .card {
-    min-width: 200px;
-    max-width: 270px;
+    min-width: 24%;
+    max-width: 24%;
   }
 }
 
 .homepage-panels {
+  
+  .card-deck {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
   .card {
     border: 1px solid $cloud;
     border-radius: 0;
+    margin-bottom: 15px;
   }
   .card-body {
     background-color: $white;
@@ -59,8 +66,8 @@
 @include media-breakpoint-down(md) {
   .bento-panels {
     .card {
-      min-width: 40%;
-      max-width: none;
+      min-width: 48%;
+      max-width: 48%;
     }
   }
 }
