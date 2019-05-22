@@ -2,40 +2,57 @@
   padding-bottom: 30px;
 }
 
+
+.bento-panels {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .card {
+    max-width: 24%;
+    min-width: 24%;
+  }
+}
+
 .homepage-panels {
   .card {
     border: 1px solid $cloud;
     border-radius: 0;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
   }
+
   .card-body {
     background-color: $white;
     padding: 10px;
   }
 
   h2 {
+    font-size: $h3-font-size;
     margin: 0;
     padding: 0;
-    font-size: $h3-font-size;
   }
 
   p {
-    padding: 0;
     margin: 10px 0;
+    padding: 0;
   }
 }
 
 .more-search-tools {
+  justify-content: center;
   padding-bottom: 30px;
   padding-top: 15px;
 
   .card {
-    flex-direction: row;
     align-items: flex-start;
+    flex-direction: row;
   }
 
   img {
-    width: 40px;
     padding: 10px 0 10px 10px;
+    width: 40px;
   }
 }
 
@@ -43,6 +60,15 @@
   .more-search-tools {
     img {
       width: 30px;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .bento-panels {
+    .card {
+      max-width: 48%;
+      min-width: 48%;
     }
   }
 }
