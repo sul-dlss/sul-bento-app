@@ -19,20 +19,29 @@ html, body {
   text-align: left;
 }
 
+@media (min-width: 576px) {
+  .container {
+    max-width: calc(100% - 30px);
+  }
+}
+
 @media (min-width: 768px) {
-  #masthead, #subnavbar, #sul-footer, #top-navbar {
+  #masthead, #subnavbar, #sul-footer, #top-navbar, .container {
     width: 750px;
+  }
+  .container {
+    max-width: calc(100% - 30px);
   }
 }
 
 @media (min-width: 980px) {
-  #masthead, #subnavbar, #sul-footer, #top-navbar {
+  #masthead, #subnavbar, #sul-footer, #top-navbar, .container {
     width: 970px;
   }
 }
 
 @media (min-width: 1200px) {
-  #masthead, #subnavbar, #sul-footer, #top-navbar {
+  #masthead, #subnavbar, #sul-footer, #top-navbar, .container {
     width: 1170px;
   }
 }
