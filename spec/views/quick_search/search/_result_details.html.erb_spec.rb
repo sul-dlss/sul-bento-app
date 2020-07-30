@@ -34,7 +34,7 @@ describe 'quick_search/search/_result_details.html.erb' do
   end
 
   it 'renders the imprint' do
-    expect(rendered).to have_css('p', text: 'The Imprint Statementg')
+    expect(rendered).to have_css('p', text: 'The Imprint Statement')
   end
 
   it 'renders the description' do
