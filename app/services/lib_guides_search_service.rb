@@ -24,7 +24,7 @@ class LibGuidesSearchService < AbstractSearchService
 
   class Response < AbstractSearchService::Response
     def results
-      json.collect do |doc|
+      json.first(5).collect do |doc|
         result = AbstractSearchService::Result.new
         result.title = doc['name']
         result.link = doc['url']
@@ -32,6 +32,10 @@ class LibGuidesSearchService < AbstractSearchService
         result.description = doc['description']
         result
       end
+    end
+
+    def facets
+      []
     end
 
     def total
