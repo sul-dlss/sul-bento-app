@@ -12,3 +12,7 @@ LIBRARY_WEBSITE_HOME_URL: 'https://library.stanford.edu'
 DESCRIPTION_SIZE: 150
 YEWNO_HOME_URL: 'https://stanford.idm.oclc.org/login?url=https://discover.yewno.com'
 GLOBAL_ALERT: <%= false %>
+LIBGUIDES:
+  API_URL: 'https://example.com/1.1/guides'
+  SITE_ID: 123456
+  KEY: abc1234
