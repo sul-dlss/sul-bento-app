@@ -2,6 +2,10 @@
   <%= link_to result.title, result.link %>
 </h3>
 
+<% if result.author.present? %>
+  <p><%= result.author %></p>
+<% end %>
+
 <% if result.description.present? %>
   <p><%= truncate(result.description.html_safe, length: Settings.DESCRIPTION_SIZE) %></p>
 <% end %>

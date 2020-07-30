@@ -9,6 +9,7 @@ describe 'quick_search/search/_result_details.html.erb' do
       r.title = 'Title'
       r.link = 'http://example.com'
       r.description = description
+      r.author = 'The Author'
       r.fulltext_link_html = '<a href="#">Link</a>'
     end
   end
@@ -25,6 +26,10 @@ describe 'quick_search/search/_result_details.html.erb' do
     within 'h3' do
       expect(rendered).to have_link('Title', href: 'http://example.com')
     end
+  end
+
+  it 'renders the author' do
+    expect(rendered).to have_css('p', text: 'The Author')
   end
 
   it 'renders the description' do
