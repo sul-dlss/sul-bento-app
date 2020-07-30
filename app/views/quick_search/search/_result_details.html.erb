@@ -6,6 +6,10 @@
   <p><%= result.author %></p>
 <% end %>
 
+<% if result.imprint.present? %>
+  <p><%= result.imprint %></p>
+<% end %>
+
 <% if result.description.present? %>
   <p><%= truncate(result.description.html_safe, length: Settings.DESCRIPTION_SIZE) %></p>
 <% end %>

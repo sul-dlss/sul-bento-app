@@ -10,6 +10,7 @@ describe 'quick_search/search/_result_details.html.erb' do
       r.link = 'http://example.com'
       r.description = description
       r.author = 'The Author'
+      r.imprint = 'The Imprint Statement'
       r.fulltext_link_html = '<a href="#">Link</a>'
     end
   end
@@ -30,6 +31,10 @@ describe 'quick_search/search/_result_details.html.erb' do
 
   it 'renders the author' do
     expect(rendered).to have_css('p', text: 'The Author')
+  end
+
+  it 'renders the imprint' do
+    expect(rendered).to have_css('p', text: 'The Imprint Statement')
   end
 
   it 'renders the description' do
