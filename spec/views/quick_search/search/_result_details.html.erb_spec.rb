@@ -34,21 +34,11 @@ describe 'quick_search/search/_result_details.html.erb' do
   end
 
   it 'renders the imprint' do
-    expect(rendered).to have_css('p', text: 'The Imprint Statement')
+    expect(rendered).to have_css('p', text: 'The Imprint Statementg')
   end
 
   it 'renders the description' do
     expect(rendered).to have_css('p', text: 'The Description')
-  end
-
-  context 'long descriptions' do
-    let(:description) { 'The description ' * 50 }
-
-    it 'are truncated to 150 characters' do
-      text = Capybara.string(rendered).find('p', text: /^The description/).text
-      expect(text.length).to eq 150
-      expect(text).to end_with '...'
-    end
   end
 
   it 'renders the fulltext link html' do

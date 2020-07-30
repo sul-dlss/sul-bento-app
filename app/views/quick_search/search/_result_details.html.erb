@@ -11,7 +11,7 @@
 <% end %>
 
 <% if result.description.present? %>
-  <p><%= truncate(result.description.html_safe, length: Settings.DESCRIPTION_SIZE) %></p>
+  <p class="description"><%= result.description.html_safe %></p>
 <% end %>
 
 <% if result.fulltext_link_html %>
