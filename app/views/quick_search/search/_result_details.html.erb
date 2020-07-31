@@ -2,12 +2,15 @@
   <%= link_to result.title, result.link %>
 </h3>
 
-<% if result.author.present? %>
-  <p><%= result.author %></p>
-<% end %>
-
-<% if result.imprint.present? %>
-  <p><%= result.imprint %></p>
+<% if result.author.present? || result.imprint.present? %>
+  <p>
+    <% if result.author.present? %>
+      <div><%= result.author %></div>
+    <% end %>
+    <% if result.imprint.present? %>
+      <div><%= result.imprint %></div>
+    <% end %>
+  </p>
 <% end %>
 
 <% if result.description.present? %>
