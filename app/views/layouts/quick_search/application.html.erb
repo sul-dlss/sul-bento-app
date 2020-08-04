@@ -1,75 +1,32 @@
-<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-  <!--<![endif]-->
-  <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M6F99S9');</script>
-    <!-- End Google Tag Manager -->
-    <title><%= content_for(:title) %></title>
-    <%= favicon_link_tag 'favicon.ico' %>
-    <meta content="ie=edge, chrome=1" http-equiv="x-ua-compatible"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="search" type="application/opensearchdescription+xml" href="<%= opensearch_path %>" title="<%= t('opensearch_description') %>"/>
-    <!-- css -->
-    <%= stylesheet_link_tag 'application' %>
-    <!-- Stanford identity -->
-    <link href="https://www-media.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if IE 8]>
-    <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
-    <![endif]-->
-    <!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
-    <![endif]-->
-    <!-- js -->
-    <%= javascript_include_tag 'application' %>
-    <%= javascript_include_tag 'https://static.yewno.com/assets/widget/yewno.min.js?_=20200414162912000' %>
-    <%= render '/layouts/quick_search/head' %>
-    <%= render '/layouts/quick_search/google_analytics' %>
+<% content_for(:head) do %>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M6F99S9');</script>
+  <title><%= content_for(:title) %></title>
+  <link rel="search" type="application/opensearchdescription+xml" href="<%= opensearch_path %>" title="<%= t('opensearch_description') %>"/>
 
-  </head>
-  <body class="<%= body_class %>" data-quicksearch-ga-query="<%= strip_tags(@log_query) %>">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6F99S9"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <nav id="skip-link" role="navigation" aria-label="Skip links">
-      <a href="#params-q" class="element-invisible element-focusable">Skip to search</a>
-      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-    </nav>
-    <!-- End Google Tag Manager (noscript) -->
-    <div id="su-wrap"> <!-- #su-wrap start -->
-      <div id="su-content"> <!-- #su-content start -->
-        <%= render 'shared/top_navbar' %>
-        <%= render 'shared/header_navbar' %>
-        <%= render 'shared/sub_navbar' %>
-        <div id="content" role="document" class="page">
-          <main id="main-content" role="main">
-            <!-- CONTENT: enter content below this line -->
-            <div id="quicksearch" class='container'>
-              <%= render '/shared/global_alert' %>
-              <%= yield %>
-            </div>
-          </main>
-        </div>
-      </div> <!-- #su-content end -->
-    </div> <!-- #su-wrap end -->
-    <%= render '/shared/sul_footer' %>
-    <%= render '/shared/global_footer' %>
-    <!-- Global footer snippet end -->
-    <script type="text/javascript">
-      $(function () {
-        $('body').hide().show();
-      });
-      window.I18n = <%= I18n.backend.send(:translations).to_json.html_safe %>
-    </script>
-  </body>
-</html>
+  <%= javascript_include_tag 'application' %>
+  <%= javascript_include_tag 'https://static.yewno.com/assets/widget/yewno.min.js?_=20200414162912000' %>
+  <%= render '/layouts/quick_search/head' %>
+  <%= render '/layouts/quick_search/google_analytics' %>
+<% end %>
+
+<% content_for(:body_top) do %>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6F99S9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<% end %>
+
+<% content_for(:body_bottom) do %>
+  <script type="text/javascript">
+    $(function () {
+      $('body').hide().show();
+    });
+    window.I18n = <%= I18n.backend.send(:translations).to_json.html_safe %>
+  </script>
+<% end %>
+
+<%= render template: 'layouts/sul' %>

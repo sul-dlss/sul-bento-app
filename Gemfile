@@ -103,3 +103,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'okcomputer'
+gem  'sul_styles', path: '/Users/cabeer/Projects/sul/sul_styles'
