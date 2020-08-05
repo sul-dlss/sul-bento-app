@@ -11,5 +11,13 @@ module QuickSearch
     def loaded_link
       format(Settings.EXHIBITS.QUERY_URL.to_s, q: CGI.escape(q.to_s))
     end
+
+    def togglable?
+      true
+    end
+
+    def toggle_threshold
+      Settings.EXHIBITS.NUM_RESULTS_SHOWN
+    end
   end
 end
