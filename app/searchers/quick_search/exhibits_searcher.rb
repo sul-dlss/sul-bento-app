@@ -12,7 +12,7 @@ module QuickSearch
       format(Settings.EXHIBITS.QUERY_URL.to_s, q: CGI.escape(q.to_s))
     end
 
-    def togglable?
+    def toggleable?
       true
     end
 
