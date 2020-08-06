@@ -15,6 +15,7 @@ class ExhibitsSearchService < AbstractSearchService
         result.title = exhibit['title']
         result.link = format(Settings.EXHIBITS.LINK_URL.to_s, id: exhibit['slug'])
         result.description = exhibit['subtitle']
+        result.thumbnail = exhibit['thumbnail_url']
         result
       end
     end
