@@ -54,5 +54,7 @@ en:
     error_service_mesasge: "searching library website"
     no_results_service_message: "a different search"
     no_results_link: "http://library.stanford.edu/search/website"
+  yewno:
+    sub_heading_html: Knowledge graphs for interconnecting concepts.
   search_form:
     placeholder: "catalog + articles + website + more"

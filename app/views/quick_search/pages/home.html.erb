@@ -9,14 +9,14 @@
     <%= image_tag 'catalog.jpg', class: 'card-img-top', alt: '', role: 'presentation' %>
     <div class='card-body'>
       <h2 class='card-title'><%= link_to 'Catalog', Settings.CATALOG_HOME_URL %></h2>
-      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'>Physical and digital books, media, journals, archives, and databases.</p>
+      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'><%= t('catalog_search.sub_heading_html') %></p>
     </div>
   </div>
   <div class='card'>
     <%= image_tag 'articles.jpg', class: 'card-img-top', alt: '', role: 'presentation' %>
     <div class='card-body'>
       <h2 class='card-title'><%= link_to 'Articles+', Settings.ARTICLES_HOME_URL %></h2>
-      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'>Journal articles, e-books, and other e-resources.</p>
+      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'><%= t('article_search.sub_heading_html') %></p>
     </div>
   </div>
 
@@ -25,7 +25,7 @@
       <%= image_tag 'guides.png', class: 'card-img-top', alt: '', role: 'presentation' %>
       <div class='card-body'>
         <h2 class='card-title'><%= link_to 'Guides', Settings.LIBGUIDES.HOME_URL %></h2>
-        <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'>Course- and topic-based guides to collections, tools, and services.</p>
+        <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'><%= t('lib_guides_search.sub_heading_html') %></p>
       </div>
     </div>
   <% end %>
@@ -34,7 +34,7 @@
     <%= image_tag 'website.jpg', class: 'card-img-top', alt: '', role: 'presentation' %>
     <div class='card-body'>
       <h2 class='card-title'><%= link_to 'Library website', Settings.LIBRARY_WEBSITE_HOME_URL %></h2>
-      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'>Libraries and subject specialists; blogs, events, and policies.</p>
+      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'><%= t('library_website_search.sub_heading_html') %></p>
     </div>
   </div>
 
@@ -43,7 +43,7 @@
       <%= image_tag 'exhibits.jpg', class: 'card-img-top', alt: '', role: 'presentation' %>
       <div class='card-body'>
         <h2 class='card-title'><%= link_to 'Exhibits', Settings.EXHIBITS.HOME_URL %></h2>
-        <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'>Digital showcases for research and teaching.</p>
+        <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'><%= t('exhibits_search.sub_heading_html') %></p>
       </div>
     </div>
   <% end %>
@@ -52,7 +52,7 @@
     <%= image_tag 'yewno.jpg', class: 'card-img-top', alt: '', role: 'presentation' %>
     <div class='card-body'>
       <h2 class='card-title'><%= link_to 'Yewno', Settings.YEWNO_HOME_URL %></h2>
-      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'>Knowledge graphs for interconnecting concepts.</p>
+      <p class='card-text d-none d-sm-block d-md-block d-lg-block d-xl-block'><%= t('yewno.sub_heading_html') %></p>
     </div>
   </div>
 </div>
