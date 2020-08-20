@@ -3,7 +3,7 @@
 # Uses the Library Website API to search
 class LibraryWebsiteApiSearchService < AbstractSearchService
   def initialize(options = {})
-    options[:query_url] ||= Settings.LIBRARY_WEBSITE_JSON_API_URL.to_s
+    options[:query_url] ||= Settings.LIBRARY_WEBSITE.API_URL.to_s
     options[:response_class] ||= Response
     super
   end
@@ -17,7 +17,7 @@ class LibraryWebsiteApiSearchService < AbstractSearchService
   class Response < AbstractSearchService::Response
     HIGHLIGHTED_FACET_FIELD = 'format_facet'
     HIGHLIGHTED_FACET_CLASS = LibraryWebsiteApiSearchService::HighlightedFacetItem
-    QUERY_URL = Settings.LIBRARY_WEBSITE_QUERY_API_URL.freeze
+    QUERY_URL = Settings.LIBRARY_WEBSITE.QUERY_URL.freeze
 
     def results
       Array.wrap(json['results']).first(3).collect do |doc|
