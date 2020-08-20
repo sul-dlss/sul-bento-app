@@ -35,7 +35,6 @@
       </div>
     </div>
   <% end %>
-
     <div class="col library-website module">
       <% if Settings.ENABLED_SEARCHERS.include?('library_website_api') %>
         <div id="library-website-api" class="module-contents" tabindex="-1">
@@ -49,7 +48,14 @@
                                   data-quicksearch-page=""
                                   data-quicksearch-template=""></p>
         </div>
-      <% end %>  
+      <% end %>
+      <% if Settings.ENABLED_SEARCHERS.include?('library_website') %>
+        <div id="library-website" class="module-contents" tabindex="-1">
+          <p class="search-error" data-quicksearch-search-endpoint="library_website"
+                                  data-quicksearch-page=""
+                                  data-quicksearch-template=""></p>
+        </div>
+      <% end %>
     </div>
 
   <% if Settings.ENABLED_SEARCHERS.include?('exhibits') %>
