@@ -1,5 +1,7 @@
 MAX_RESULTS: 3
 
+FORWARDED_IP: '192.168.0.1'
+
 LIBRARY_WEBSITE_HOME_URL: 'https://library.stanford.edu'
 YEWNO_HOME_URL: 'https://stanford.idm.oclc.org/login?url=https://discover.yewno.com'
 GLOBAL_ALERT: <%= false %>
