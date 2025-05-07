@@ -1,4 +1,4 @@
-<div id="<%= service_name.underscore %>" class="module-contents" >
+<div id="<%= service_name.underscore %>" class="module-contents text-15" >
     <% total = searcher.total.present? ? number_with_delimiter(searcher.total) : nil %>
     <% if searcher.results.blank? %>
         <%= render partial: 'module_heading', locals: { service_name: service_name, total: total, searcher: searcher } %>
@@ -7,7 +7,7 @@
         <%= render partial: 'module_heading', locals: { service_name: service_name, total: total, searcher: searcher } %>
 
         <%= render partial: 'highlighted_facet', locals: { searcher: searcher } %>
-        <ol id="<%= service_name %>-toggleable-results" <%= "data-behavior=\"toggleable-results\" data-toggle-threshold=\"#{searcher.toggle_threshold}\"".html_safe if defined?(searcher.toggleable?) && searcher.toggleable? %>>
+        <ol id="<%= service_name %>-toggleable-results" class="list-unstyled" <%= "data-behavior=\"toggleable-results\" data-toggle-threshold=\"#{searcher.toggle_threshold}\"".html_safe if defined?(searcher.toggleable?) && searcher.toggleable? %>>
           <%= render partial: 'result', collection: searcher.results %>
         </ol>
 
@@ -25,7 +25,7 @@
             </button>
 
             <script type='text/javascript'>
-              window.onload = function () { 
+              window.onload = function () {
                 toggleableResults('<%= service_name %>');
               };
             </script>

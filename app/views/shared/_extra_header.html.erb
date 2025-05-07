@@ -1,0 +1,36 @@
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <%= javascript_importmap_tags %>
+    <script type="text/javascript">
+      $(function () {
+        $('body').hide().show();
+      });
+      window.I18n = <%= I18n.backend.send(:translations).to_json.html_safe %>
+    </script>
+    <style>
+    .online-label {
+      background-color: #008566;
+      border: 1px solid #008E69;
+      border-radius: 2px;
+      color: white;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 0;
+      padding: 0px 7px 2px 7px;
+    }
+
+    .result {
+      img {
+        display: inline-block;
+      }
+      img[alt="PDF"] {
+        height: 20px;
+      }
+
+      .stanford-only::after {
+        content: url('<%= image_path "stanford-only.svg" %>');
+        margin-left: 5px;
+        vertical-align: middle;
+      }
+    }
+    </style>

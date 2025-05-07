@@ -1,19 +1,16 @@
-<% title %>
-<div class="quicksearch-ga-click-tracking">
-  <div id="result-types" class="row">
-    <div class="col result-types">
-      <%= render partial: 'layouts/quick_search/found_types' %>
-    </div>
+<%= render 'shared/search_form' %>
+
+<div id="result-types" class="row">
+  <div class="col result-types">
+    <%= render partial: 'layouts/quick_search/found_types' %>
   </div>
 </div>
-<div class="quicksearch-ga-click-tracking row row-cols-1 row-cols-md-2">
+<div class="centered flex justify-between gap-10 flex-wrap mb-30">
   <% Settings.ENABLED_SEARCHERS.each do |searcher| %>
-    <div class="col module">
+    <article style="flex-basis: calc(50% - 1rem)" class="border border-solid border-black-10 border-t-digital-red border-t-4 p-30 leading-display text-black shadow-md">
       <%= render_module(@searches[searcher], searcher) %>
-    </div>
+    </article>
   <% end %>
 </div>
 
-<div class="quicksearch-ga-click-tracking">
-  <%= render partial: 'shared/more_search_tools' %>
-</div>
+<%= render 'shared/more_search_tools' %>

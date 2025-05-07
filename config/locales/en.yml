@@ -10,9 +10,6 @@ en:
     sub_heading_html: Digital showcases for research and teaching.
     toggle_button_text: Show %{total} exhibits
   opensearch_description: "Stanford Libraries"
-  defaults_search:
-    title_name: Search
-  organization_name: Stanford Libraries
   catalog_search:
     display_name: "Catalog"
     short_display_name: "Catalog"

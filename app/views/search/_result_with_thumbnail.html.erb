@@ -1,10 +1,10 @@
-<div class="row mb-3">
-  <div class="col-sm-3">
-      <%= link_to result.link, aria: { hidden: true } do %>
-          <%= image_tag result.thumbnail, class: 'thumbnail img-fluid', alt: '' %>
-      <% end %>
+<div class="flex mb-30">
+  <div style="flex-basis: 25%" class="px-10">
+    <%= link_to result.link, aria: { hidden: true } do %>
+        <%= image_tag result.thumbnail, class: 'thumbnail img-fluid', alt: '' %>
+    <% end %>
   </div>
-  <div class="col-sm-9 pl-0 columns">
+  <div class="px-10">
       <%= render partial: 'result_details', locals: { result: result } %>
   </div>
 </div>
