@@ -63,9 +63,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'okcomputer'
-gem 'global_alerts'
-
-gem "cssbundling-rails", "~> 1.1"
 
 gem 'rack-attack'
 

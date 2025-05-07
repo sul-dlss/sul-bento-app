@@ -1,4 +1,4 @@
-<h3 class="result-title">
+<h3 class="result-title text-18">
   <%= link_to result.title, result.link %>
 </h3>
 
@@ -14,7 +14,7 @@
 <% end %>
 
 <% if result.description.present? %>
-  <p class="description"><%= result.description.html_safe %></p>
+  <p class="description" style="overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;"><%= result.description.html_safe %></p>
 <% end %>
 
 <% if result.temporary_access_link_html.present? %>
