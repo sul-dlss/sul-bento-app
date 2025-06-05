@@ -1,116 +1,183 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <title><%= content_for(:title) %></title>
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/sul-dlss/component-library@v2025-01-24/styles/icon.png" type="image/png">
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/sul-dlss/component-library@v2025-01-24/styles/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/sul-dlss/component-library@v2025-01-24/styles/icon.png">
-
-    <meta content="ie=edge, chrome=1" http-equiv="x-ua-compatible"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="search" type="application/opensearchdescription+xml" href="<%= opensearch_path %>" title="<%= t('opensearch_description') %>"/>
-    <!-- css -->
-    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" %>
-    <!-- Stanford identity -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4H0K34LTNE"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      // To turn off debug mode, exclude the parameter altogether (cannot just set to false)
-      // See https://support.google.com/analytics/answer/7201382?hl=en#zippy=%2Cgoogle-tag-websites
-      args = <%= Settings.analytics_debug %> ? {"debug_mode":true} : {};
-      gtag('js', new Date());
-      gtag('config', 'G-4H0K34LTNE', args);
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <%= stylesheet_link_tag "application" %>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sul-dlss/component-library@v2024-12-18/styles/sul.css" />
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <%= javascript_importmap_tags %>
-  </head>
-  <%= content_tag :body, class: body_class, data: { 'quicksearch-ga-query': strip_tags(@query || '') } do %>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6F99S9"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <nav id="skip-link" aria-label="Skip links">
-      <a href="#params-q" class="visually-hidden-focusable rounded-bottom py-2 px-3">Skip to search</a>
-      <a href="#main-content" class="visually-hidden-focusable rounded-bottom py-2 px-3">Skip to main content</a>
-    </nav>
-    <header>
-      <div class="container">
-        <a class="su-brand-bar__logo" href="https://www.stanford.edu"
-          >Stanford University</a
-        >
-      </div>
-      <nav
-        class="navbar navbar-expand-md bg-dark bg-cardinal"
-        role="navigation"
-      >
-        <div class="container">
-          <a
-            class="mb-0 navbar-brand navbar-logo"
-            href="https://library.stanford.edu"
-            >Stanford University Libraries</a
-          >
-          <button
-            class="navbar-toggler navbar-toggler-right"
-            type="button"
-            data-toggle="collapse"
-            data-bs-toggle="collapse"
-            data-target="#user-util-collapse"
-            data-bs-target="#user-util-collapse"
-            aria-controls="user-util-collapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div
-            class="collapse navbar-collapse justify-content-md-end"
-            id="user-util-collapse"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="https://mylibrary.stanford.edu/">My Account</a>
-              </li>
-              <li class="nav-item">
-                <a href="https://library.stanford.edu/contact-us" class="nav-link">Feedback</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="masthead bg-dark bg-cardinal pb-4">
-        <div class="container">
-          <div class="row align-items-center">
-            <div
-              class="col-md-8 d-flex justify-content-center justify-content-md-start"
-            >
-              <%= render 'shared/header_navbar' %>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <%= render 'shared/sub_navbar' %>
-    <main id="main-content" role="main">
-      <!-- CONTENT: enter content below this line -->
-      <div id="quicksearch" class='container'>
-        <%= render '/shared/global_alert' %>
-        <%= yield %>
-      </div>
-    </main>
-    <%= render '/shared/sul_footer' %>
-    <!-- Global footer snippet end -->
-    <script type="text/javascript">
-      $(function () {
-        $('body').hide().show();
-      });
-      window.I18n = <%= I18n.backend.send(:translations).to_json.html_safe %>
-    </script>
-  <% end %>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://library.stanford.edu/_next/static/css/e42fa412079c44dc.css" data-precedence="next">
+<link rel="stylesheet" href="https://library.stanford.edu/_next/static/css/cdaa6d3935ea0181.css" data-precedence="next">
+<link rel="stylesheet" href="https://library.stanford.edu/_next/static/css/830ee57caee13395.css" data-precedence="next">
+<meta property="og:url" content="https://library.stanford.edu">
+<meta property="og:site_name" content="Libraries">
+<meta property="og:locale" content="en_IE">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="https://library.stanford.edu/favicon.ico">
+<link rel="icon" href="https://www-media.stanford.edu/assets/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" href="https://www-media.stanford.edu/assets/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://www-media.stanford.edu/assets/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" href="https://www-media.stanford.edu/assets/favicon/favicon-128.png" sizes="128x128">
+<link rel="icon" href="https://www-media.stanford.edu/assets/favicon/favicon-192x192.png" sizes="192x192">
+<link rel="icon" href="https://www-media.stanford.edu/assets/favicon/favicon-196x196.png" sizes="196x196">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-60x60.png" sizes="60x60">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-72x72.png" sizes="72x72">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-76x76.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-114x114.png" sizes="114x114">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-120x120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-144x144.png" sizes="144x144">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-152x152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://www-media.stanford.edu/assets/favicon/apple-touch-icon-180x180.png" sizes="180x180">
+<title>Stanford Libraries</title>
+<meta name="description" content=" Web accessibility Stanford University is committed to providing an online environment that is accessible to everyone, including individuals with disabilities.">
+<meta property="og:title" content="Stanford Libraries">
+<meta property="og:description" content=" Web accessibility Stanford University is committed to providing an online environment that is accessible to everyone, including individuals with disabilities.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stanford Libraries">
+<meta name="twitter:description" content=" Web accessibility Stanford University is committed to providing an online environment that is accessible to everyone, including individuals with disabilities.">
+<%= render 'shared/extra_header' %>
+</head>
+<body>
+<nav aria-label="Skip link"><a class="skiplink" href="#main-content">Skip to main content</a></nav><div class="grid min-h-screen grid-rows-1">
+<div>
+<div role="region" aria-label="Site Messages"><div class="identity-bar relative z-40 bg-cardinal-red pb-1 pt-5 lg:z-10"><div class="centered"><a class="logo text-20 leading-none text-white hocus:text-white" href="https://www.stanford.edu">Stanford University</a></div></div></div>
+<header class="relative top-0 z-20 bg-white shadow-lg"><div class="lg:centered"><div class="relative z-20 mx-auto w-full max-w-1500 justify-between bg-white px-40 pt-20 lg:z-10 lg:flex lg:gap-32 lg:px-0">
+<div class="pb-20"><a class="flex flex-col text-black no-underline sm:flex-row sm:items-end" href="https://library.stanford.edu/"><div class="border-black py-2 pr-9 sm:border-r-2"><svg aria-hidden="true" width="426" height="91" viewbox="0 0 426.000000 91.000000" preserveaspectratio="xMidYMid meet" aria-label="Stanford University Libraries Logo" role="img" class="block max-h-[30px] w-auto no-underline text-cardinal-red"><g transform="translate(0,91) scale(0.1,-0.1)" fill="currentColor" stroke="none"><path d="M2438 896 c-95 -34 -132 -95 -143 -237 -7 -86 -7 -86 -41 -102 -46 -22 -45 -47 1 -47 l35 0 0 -211 c0 -118 -4 -218 -10 -229 -5 -10 -23 -23 -40 -28 -16 -6 -30 -15 -30 -19 0 -4 70 -8 155 -8 111 -1 155 3 155 11 0 6 -18 14 -40 18 -24 4 -43 14 -50 25 -6 12 -10 105 -10 230 l0 211 60 0 60 0 0 35 0 35 -60 0 -60 0 0 100 c0 111 10 143 50 160 38 16 76 3 109 -37 l29 -35 32 43 31 44 -21 17 c-46 37 -144 48 -212 24z"></path><path d="M4125 894 c-27 -7 -69 -13 -92 -13 -31 -1 -43 -5 -43 -16 0 -8 9 -15 19 -15 39 0 51 -37 51 -155 l0 -110 -85 3 c-182 7 -288 -76 -316 -248 -26 -165 51 -302 188 -330 61 -13 107 -8 170 20 42 18 42 18 45 -3 2 -13 9 -21 18 -19 8 2 52 8 97 15 88 11 105 26 51 42 -28 9 -34 16 -40 50 -4 22 -7 207 -6 412 1 205 0 374 -3 376 -2 2 -26 -2 -54 -9z m-88 -389 c23 -15 23 -18 23 -210 l0 -194 -42 -11 c-57 -16 -121 -4 -159 28 -50 41 -69 94 -69 192 0 121 34 187 106 210 38 12 112 4 141 -15z"></path><path d="M159 816 c-88 -31 -139 -101 -139 -189 0 -96 34 -143 175 -242 50 -34 100 -74 113 -87 59 -64 46 -169 -23 -203 -19 -8 -60 -15 -97 -15 -85 0 -128 23 -148 79 -24 68 -40 53 -40 -39 0 -78 1 -81 28 -92 15 -7 80 -12 152 -12 120 -1 127 0 178 28 92 51 130 151 98 258 -18 64 -46 93 -180 185 -120 82 -141 108 -140 169 2 83 70 120 188 102 56 -8 92 -37 101 -79 12 -56 25 -28 25 55 l0 83 -37 7 c-65 10 -216 6 -254 -8z"></path><path d="M675 680 c-22 -43 -80 -105 -121 -131 -43 -26 -43 -39 1 -39 l35 0 0 -187 c0 -209 7 -251 50 -286 55 -47 172 -45 234 4 35 28 36 52 0 39 -47 -18 -103 -12 -129 15 -25 24 -25 25 -25 220 l0 195 95 0 95 0 0 35 0 35 -95 0 -94 0 -3 62 c-3 70 -19 84 -43 38z"></path><path d="M1165 596 c-5 -3 -22 -7 -37 -10 -30 -7 -93 -57 -109 -88 -7 -13 -7 -23 1 -32 8 -11 17 -7 44 20 29 29 41 34 81 34 25 0 55 -5 66 -10 26 -14 49 -62 49 -102 l0 -33 -107 -35 c-69 -22 -119 -45 -140 -63 -64 -56 -67 -161 -8 -226 31 -34 37 -36 107 -39 63 -3 78 0 112 21 l38 24 24 -24 c31 -31 89 -31 135 0 46 31 51 57 10 57 -20 0 -34 7 -41 19 -6 12 -9 87 -8 193 2 158 1 177 -18 212 -12 23 -35 47 -55 57 -33 17 -123 33 -144 25z m95 -391 c0 -108 -6 -116 -88 -118 -56 0 -82 26 -82 83 0 50 29 84 93 109 80 31 77 33 77 -74z"></path><path d="M2809 590 c-138 -24 -219 -134 -219 -299 0 -101 21 -163 76 -217 105 -106 321 -93 410 23 60 79 80 214 48 322 -37 126 -166 196 -315 171z m143 -98 c86 -97 71 -359 -23 -407 -15 -8 -48 -15 -73 -15 -36 0 -50 6 -75 31 -39 38 -61 113 -61 203 0 97 15 143 61 190 38 37 41 38 91 34 42 -4 57 -11 80 -36z"></path><path d="M1677 579 c-9 -6 -49 -13 -87 -16 -77 -6 -88 -19 -37 -43 l32 -15 3 -208 c3 -221 -1 -242 -43 -253 -14 -3 -25 -11 -25 -18 0 -8 41 -11 135 -11 104 -1 135 2 135 12 0 7 -9 13 -19 13 -45 0 -51 31 -51 247 0 232 -3 225 97 227 111 1 136 -54 130 -287 -3 -124 -7 -150 -22 -167 -10 -11 -26 -20 -37 -20 -10 0 -18 -6 -18 -12 0 -10 35 -13 140 -14 77 0 140 3 140 7 0 5 -16 15 -35 23 -19 8 -36 16 -37 18 0 2 -4 95 -7 208 -7 227 -12 248 -73 292 -48 33 -157 38 -223 9 -57 -25 -52 -25 -58 -1 -6 22 -14 24 -40 9z"></path><path d="M3330 575 c-30 -7 -72 -14 -92 -14 -48 -1 -51 -24 -6 -37 43 -13 46 -28 46 -214 1 -212 -4 -241 -45 -260 -61 -28 -38 -35 117 -35 116 -1 150 2 150 12 0 7 -9 13 -20 13 -32 0 -68 21 -74 44 -3 11 -6 105 -6 208 0 175 1 188 19 198 33 17 78 11 109 -15 17 -14 35 -25 41 -25 12 0 51 72 51 95 0 19 -57 45 -98 45 -16 0 -50 -11 -75 -24 l-47 -23 0 23 c0 13 -3 23 -7 23 -5 -1 -33 -7 -63 -14z"></path></g></svg></div>
+<div class="font-roboto type-1 text-nowrap font-light text-black sm:relative sm:top-[5px] sm:pl-9">University Libraries</div></a></div>
+<nav class="hidden lg:block" aria-label="User links"><ul class="list-unstyled flex items-baseline gap-40 xl:gap-[55px]">
+<li class="flex items-start gap-5">
+<a rel="nofollow" class="text-18 font-normal text-black" href="https://searchworks.stanford.edu/">Searchworks Catalog</a><a rel="nofollow" class="ml-10 border-l border-black pl-10 text-18 font-normal text-black" href="https://searchworks.stanford.edu/articles">Articles+</a>
+</li>
+<li><a rel="nofollow" class="text-18 font-normal text-black" href="https://mylibrary.stanford.edu/">My Account</a></li>
+<li><a rel="nofollow" class="text-18 font-normal text-black" href="https://library.stanford.edu/contact-us">Contact Us</a></li>
+<li><a rel="nofollow" class="cta-button group rs-mt-neg1 mt-0 block w-fit whitespace-nowrap rounded-full bg-digital-red px-16 py-6 text-18 font-normal leading text-white no-underline transition-colors hover:bg-cardinal-red-dark focus:bg-black-true active:bg-black-true hocus:text-white hocus:underline" href="https://give.stanford.edu/?kwoDCPreselect=KDC-29V9KK0&amp;olc=10734">Donate now</a></li>
+</ul></nav>
+</div></div>
+<!--$--><div class="mx-auto w-full max-w-1500 lg:px-40 3xl:px-0">
+<button class="absolute right-20 top-20 z-20 border-b-2 border-transparent text-black-true hocus:border-black-true lg:hidden" aria-expanded="false"><span class="mx-auto block w-[30px]"><span class="mb-[5px] block h-[5px] w-full rounded-full bg-black"></span><span class="mb-[5px] block h-[5px] w-full rounded-full bg-black"></span><span class="mb-[5px] block h-[5px] w-full rounded-full bg-black"></span></span>Menu</button><div class="relative"><div aria-hidden="false" class="absolute z-10 h-[calc(100vh-100px)] w-full -translate-y-full overflow-y-scroll border-t-4 border-cardinal-red bg-black-true py-20 lg:relative lg:block lg:h-auto lg:transform-none lg:animate-none lg:overflow-visible lg:border-0 lg:bg-transparent lg:py-0 lg:pb-0">
+<!--$--><div class="px-20 pb-20 lg:hidden block"><form class="relative flex flex-col gap-xs @xl:flex-row @xl:items-end @3xl:gap-xl" action="/all">
+<div class="flex-grow">
+<label class="mb-2 text-white" for="«R1l5tb»-search">Keyword Search</label><input id="«R1l5tb»-search" class="p-10 w-full rounded-full lg:hidden" placeholder="Search" name="q">
+</div>
+<button type="submit" class="rounded-full bg-digital-red p-15 text-16 text-white transition hover:bg-cardinal-red-dark hocus:underline md:text-18">Search</button>
+</form></div>
+<!--/$--><nav aria-label="Main Menu" class="block"><ul class="list-unstyled m-0 p-0 lg:flex lg:justify-end">
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="0" class='flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:text-archway border-b border-black lg:border-0 after:content-[""] after:block after:absolute after:bottom-0 after:left-20 after:h-[4px] after:w-[calc(100%-40px)]' aria-current="page" href="https://library.stanford.edu/"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[0px]">Home</div></a></li>
+<li class="relative m-0 p-0 lg:flex">
+<a rel="nofollow" tabindex="0" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:text-archway border-b border-black lg:w-[calc(100%-40px)] lg:border-0 lg:pr-5" href="https://library.stanford.edu/services"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[0px]">Services </div></a><button class="after:z-5 group absolute right-0 top-0 z-20 h-[68px] w-[70px] bg-black after:absolute after:bottom-25 after:left-5 after:block after:h-1 after:w-[30px] hover:after:content-[''] lg:relative lg:h-auto lg:w-[40px] lg:bg-transparent" aria-expanded="false" tabindex="0"><span class="mx-auto block w-fit border-b-2 border-transparent transition group-hocus:border-white lg:group-hocus:border-archway"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="mx-auto text-white transition-all lg:text-black-true lg:group-hocus:text-archway" height="40"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg></span><span class="sr-only">Services submenu</span></button><ul aria-hidden="true" data-attribute-menu-level="0" class="list-unstyled m-0 w-full p-0 lg:top-full lg:w-[200%] lg:bg-white hidden lg:absolute lg:shadow-lg xl:right-auto">
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/all-services"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Services A-Z</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/services/search-and-find"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Search and find</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/services/borrow-and-request"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Borrow and request</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/services/off-campus-access"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Off-campus access</div></a></li>
+</ul>
+</li>
+<li class="relative m-0 p-0 lg:flex">
+<a rel="nofollow" tabindex="0" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:text-archway border-b border-black lg:w-[calc(100%-40px)] lg:border-0 lg:pr-5" href="https://library.stanford.edu/research-support"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[0px]">Research support</div></a><button class="after:z-5 group absolute right-0 top-0 z-20 h-[68px] w-[70px] bg-black after:absolute after:bottom-25 after:left-5 after:block after:h-1 after:w-[30px] hover:after:content-[''] lg:relative lg:h-auto lg:w-[40px] lg:bg-transparent" aria-expanded="false" tabindex="0"><span class="mx-auto block w-fit border-b-2 border-transparent transition group-hocus:border-white lg:group-hocus:border-archway"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="mx-auto text-white transition-all lg:text-black-true lg:group-hocus:text-archway" height="40"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg></span><span class="sr-only">Research support submenu</span></button><ul aria-hidden="true" data-attribute-menu-level="0" class="list-unstyled m-0 w-full p-0 lg:top-full lg:w-[200%] lg:bg-white hidden lg:absolute lg:shadow-lg xl:right-auto">
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/research-support/subject-specialists"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Subject specialists</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/research-support/workshops"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Workshops</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/research/subject-areas"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Subjects A-Z</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://guides.library.stanford.edu/"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Guides</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/research-support/increase-your-research-impact"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Increase your research impact</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/research-support/data-support-and-services"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Data support and services</div></a></li>
+</ul>
+</li>
+<li class="relative m-0 p-0 lg:flex">
+<a rel="nofollow" tabindex="0" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:text-archway border-b border-black lg:w-[calc(100%-40px)] lg:border-0 lg:pr-5" href="https://library.stanford.edu/libraries-0"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[0px]">Libraries</div></a><button class="after:z-5 group absolute right-0 top-0 z-20 h-[68px] w-[70px] bg-black after:absolute after:bottom-25 after:left-5 after:block after:h-1 after:w-[30px] hover:after:content-[''] lg:relative lg:h-auto lg:w-[40px] lg:bg-transparent" aria-expanded="false" tabindex="0"><span class="mx-auto block w-fit border-b-2 border-transparent transition group-hocus:border-white lg:group-hocus:border-archway"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="mx-auto text-white transition-all lg:text-black-true lg:group-hocus:text-archway" height="40"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg></span><span class="sr-only">Libraries submenu</span></button><ul aria-hidden="true" data-attribute-menu-level="0" class="list-unstyled m-0 w-full p-0 lg:top-full lg:w-[200%] lg:bg-white hidden lg:absolute lg:shadow-lg xl:right-auto">
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/libraries/branches-and-centers"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Branches and centers</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/libraries/places-to-study"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Places to study</div></a></li>
+</ul>
+</li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="0" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:text-archway border-b border-black lg:border-0" href="https://library.stanford.edu/news-and-events"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[0px]">News and events</div></a></li>
+<li class="relative m-0 p-0 lg:flex mr-32">
+<a rel="nofollow" tabindex="0" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:text-archway border-b border-black lg:w-[calc(100%-40px)] lg:border-0 lg:pr-5" href="https://library.stanford.edu/about-stanford-libraries"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[0px]">About us</div></a><button class="after:z-5 group absolute right-0 top-0 z-20 h-[68px] w-[70px] bg-black after:absolute after:bottom-25 after:left-5 after:block after:h-1 after:w-[30px] hover:after:content-[''] lg:relative lg:h-auto lg:w-[40px] lg:bg-transparent" aria-expanded="false" tabindex="0"><span class="mx-auto block w-fit border-b-2 border-transparent transition group-hocus:border-white lg:group-hocus:border-archway"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="mx-auto text-white transition-all lg:text-black-true lg:group-hocus:text-archway" height="40"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg></span><span class="sr-only">About us submenu</span></button><ul aria-hidden="true" data-attribute-menu-level="0" class="list-unstyled m-0 w-full p-0 lg:top-full lg:w-[200%] lg:bg-white hidden lg:absolute lg:shadow-lg xl:right-auto">
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/about-stanford-libraries/about-libraries"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">About the Libraries</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/about-stanford-libraries/visit-us"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Visit us</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/about-stanford-libraries/meet-our-leadership"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Leadership</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/support-stanford-libraries"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Support the Libraries</div></a></li>
+<li class="relative m-0 p-0 lg:flex"><a rel="nofollow" tabindex="-1" class="flex w-full items-center p-20 text-white no-underline hocus:text-white hocus:underline lg:text-black-true lg:hocus:bg-black-10 lg:hocus:text-archway border-b border-black lg:border-b-fog-light lg:pl-0" href="https://library.stanford.edu/about-stanford-libraries/explore-collection-highlights"><div class="w-full shrink-0 pl-30 lg:pl-0 ml-[30px]">Collection highlights</div></a></li>
+</ul>
+</li>
+</ul></nav><nav class="mt-40 items-center justify-center gap-10 p-40 text-center text-white lg:hidden block"><div class="mb-10 mr-20 text-left">Quick links:</div>
+<ul class="list-unstyled flex flex-wrap items-center gap-10 @container">
+<li class="m-0"><a rel="nofollow" class="text-white no-underline hocus:text-white hocus:underline @sm:border-r @sm:border-white @sm:pr-10" href="https://searchworks.stanford.edu/">Searchworks Catalog</a></li>
+<li class="m-0"><a rel="nofollow" class="mr-20 text-white no-underline hocus:text-white hocus:underline" href="https://searchworks.stanford.edu/articles">Articles+</a></li>
+<li class="m-0"><a rel="nofollow" class="mr-20 text-white no-underline hocus:text-white hocus:underline" href="https://mylibrary.stanford.edu/">My Account</a></li>
+<li class="m-0"><a rel="nofollow" class="mr-20 text-white no-underline hocus:text-white hocus:underline" href="https://library.stanford.edu/all">Search Results</a></li>
+<li class="m-0"><a rel="nofollow" class="mr-20 text-white no-underline hocus:text-white hocus:underline" href="https://library.stanford.edu/library-accessibility">Accessibility</a></li>
+<li class="m-0"><a rel="nofollow" class="mr-20 text-white no-underline hocus:text-white hocus:underline" href="https://library.stanford.edu/contact-us">Contact Us</a></li>
+<li class="m-0"><a rel="nofollow" class="text-white no-underline hocus:text-white hocus:underline" href="https://library.stanford.edu/support-stanford-libraries">Donate now</a></li>
+</ul></nav>
+</div></div>
+</div>
+<!--/$--></header><main id="main-content"><%= yield %></main>
+</div>
+<footer class="row-start-2 row-end-3"><div class="rs-mt-6 bg-fog-light pb-30 text-black @container">
+<div><svg viewbox="0 0 1500 100" aria-hidden="true" class="bg-gradient-to-t from-fog-light to-transparent"><path d="M1500,0 L1500,100 1200,100 1200,0" class="fill-fog-light"></path><path d="M0,0 Q500,10 700,45 Q1200,130 1500,0" stroke="#fff" class="fill-white"></path></svg></div>
+<div class="centered relative mb-50 mt-25 flex flex-row justify-between gap-2xl @3xl:mt-50 @5xl:mt-0"><div><a class="flex flex-col text-black no-underline sm:flex-row sm:items-end" href="https://library.stanford.edu/"><div class="border-black py-2 pr-9 sm:border-r-2"><svg aria-hidden="true" width="426" height="91" viewbox="0 0 426.000000 91.000000" preserveaspectratio="xMidYMid meet" aria-label="Stanford University Libraries Logo" role="img" class="block max-h-[30px] w-auto no-underline text-cardinal-red"><g transform="translate(0,91) scale(0.1,-0.1)" fill="currentColor" stroke="none"><path d="M2438 896 c-95 -34 -132 -95 -143 -237 -7 -86 -7 -86 -41 -102 -46 -22 -45 -47 1 -47 l35 0 0 -211 c0 -118 -4 -218 -10 -229 -5 -10 -23 -23 -40 -28 -16 -6 -30 -15 -30 -19 0 -4 70 -8 155 -8 111 -1 155 3 155 11 0 6 -18 14 -40 18 -24 4 -43 14 -50 25 -6 12 -10 105 -10 230 l0 211 60 0 60 0 0 35 0 35 -60 0 -60 0 0 100 c0 111 10 143 50 160 38 16 76 3 109 -37 l29 -35 32 43 31 44 -21 17 c-46 37 -144 48 -212 24z"></path><path d="M4125 894 c-27 -7 -69 -13 -92 -13 -31 -1 -43 -5 -43 -16 0 -8 9 -15 19 -15 39 0 51 -37 51 -155 l0 -110 -85 3 c-182 7 -288 -76 -316 -248 -26 -165 51 -302 188 -330 61 -13 107 -8 170 20 42 18 42 18 45 -3 2 -13 9 -21 18 -19 8 2 52 8 97 15 88 11 105 26 51 42 -28 9 -34 16 -40 50 -4 22 -7 207 -6 412 1 205 0 374 -3 376 -2 2 -26 -2 -54 -9z m-88 -389 c23 -15 23 -18 23 -210 l0 -194 -42 -11 c-57 -16 -121 -4 -159 28 -50 41 -69 94 -69 192 0 121 34 187 106 210 38 12 112 4 141 -15z"></path><path d="M159 816 c-88 -31 -139 -101 -139 -189 0 -96 34 -143 175 -242 50 -34 100 -74 113 -87 59 -64 46 -169 -23 -203 -19 -8 -60 -15 -97 -15 -85 0 -128 23 -148 79 -24 68 -40 53 -40 -39 0 -78 1 -81 28 -92 15 -7 80 -12 152 -12 120 -1 127 0 178 28 92 51 130 151 98 258 -18 64 -46 93 -180 185 -120 82 -141 108 -140 169 2 83 70 120 188 102 56 -8 92 -37 101 -79 12 -56 25 -28 25 55 l0 83 -37 7 c-65 10 -216 6 -254 -8z"></path><path d="M675 680 c-22 -43 -80 -105 -121 -131 -43 -26 -43 -39 1 -39 l35 0 0 -187 c0 -209 7 -251 50 -286 55 -47 172 -45 234 4 35 28 36 52 0 39 -47 -18 -103 -12 -129 15 -25 24 -25 25 -25 220 l0 195 95 0 95 0 0 35 0 35 -95 0 -94 0 -3 62 c-3 70 -19 84 -43 38z"></path><path d="M1165 596 c-5 -3 -22 -7 -37 -10 -30 -7 -93 -57 -109 -88 -7 -13 -7 -23 1 -32 8 -11 17 -7 44 20 29 29 41 34 81 34 25 0 55 -5 66 -10 26 -14 49 -62 49 -102 l0 -33 -107 -35 c-69 -22 -119 -45 -140 -63 -64 -56 -67 -161 -8 -226 31 -34 37 -36 107 -39 63 -3 78 0 112 21 l38 24 24 -24 c31 -31 89 -31 135 0 46 31 51 57 10 57 -20 0 -34 7 -41 19 -6 12 -9 87 -8 193 2 158 1 177 -18 212 -12 23 -35 47 -55 57 -33 17 -123 33 -144 25z m95 -391 c0 -108 -6 -116 -88 -118 -56 0 -82 26 -82 83 0 50 29 84 93 109 80 31 77 33 77 -74z"></path><path d="M2809 590 c-138 -24 -219 -134 -219 -299 0 -101 21 -163 76 -217 105 -106 321 -93 410 23 60 79 80 214 48 322 -37 126 -166 196 -315 171z m143 -98 c86 -97 71 -359 -23 -407 -15 -8 -48 -15 -73 -15 -36 0 -50 6 -75 31 -39 38 -61 113 -61 203 0 97 15 143 61 190 38 37 41 38 91 34 42 -4 57 -11 80 -36z"></path><path d="M1677 579 c-9 -6 -49 -13 -87 -16 -77 -6 -88 -19 -37 -43 l32 -15 3 -208 c3 -221 -1 -242 -43 -253 -14 -3 -25 -11 -25 -18 0 -8 41 -11 135 -11 104 -1 135 2 135 12 0 7 -9 13 -19 13 -45 0 -51 31 -51 247 0 232 -3 225 97 227 111 1 136 -54 130 -287 -3 -124 -7 -150 -22 -167 -10 -11 -26 -20 -37 -20 -10 0 -18 -6 -18 -12 0 -10 35 -13 140 -14 77 0 140 3 140 7 0 5 -16 15 -35 23 -19 8 -36 16 -37 18 0 2 -4 95 -7 208 -7 227 -12 248 -73 292 -48 33 -157 38 -223 9 -57 -25 -52 -25 -58 -1 -6 22 -14 24 -40 9z"></path><path d="M3330 575 c-30 -7 -72 -14 -92 -14 -48 -1 -51 -24 -6 -37 43 -13 46 -28 46 -214 1 -212 -4 -241 -45 -260 -61 -28 -38 -35 117 -35 116 -1 150 2 150 12 0 7 -9 13 -20 13 -32 0 -68 21 -74 44 -3 11 -6 105 -6 208 0 175 1 188 19 198 33 17 78 11 109 -15 17 -14 35 -25 41 -25 12 0 51 72 51 95 0 19 -57 45 -98 45 -16 0 -50 -11 -75 -24 l-47 -23 0 23 c0 13 -3 23 -7 23 -5 -1 -33 -7 -63 -14z"></path></g></svg></div>
+<div class="font-roboto type-1 text-nowrap font-light text-black sm:relative sm:top-[5px] sm:pl-9">University Libraries</div></a></div></div>
+<div class="centered relative grid w-full gap-2xl text-center @8xl:grid-cols-2 @8xl:text-left @12xl:grid-cols-4">
+<div>
+<address class="mb-30">557 Escondido Mall<br>Stanford, CA 94305</address>
+<ul class="list-unstyled">
+<li><a rel="nofollow" class="type-0 text-black no-underline hocus:text-black hocus:underline" href="https://library.stanford.edu/all-locations-and-hours">All locations and hours<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="ml-10 inline-block" width="15"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path></svg></a></li>
+<li><a rel="nofollow" class="type-0 text-black no-underline hocus:text-black hocus:underline" href="https://library.stanford.edu/contact-us">Contact us<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="ml-10 inline-block" width="15"><path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd"></path></svg></a></li>
+</ul>
+</div>
+<div>
+<h2 class="mb-10 text-24">Who we are</h2>
+<ul class="list-unstyled">
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library.stanford.edu/about-us">About us</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library.stanford.edu/staff-directory">Staff directory</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library.stanford.edu/department-directory">Department directory</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://searchworks.stanford.edu/catalog?f%5Bcollection%5D%5B%5D=hn730ks3626">Staff publications and research</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://stanford.joinhandshake.com/login">Student job openings</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library.stanford.edu/careers">Careers</a></li>
+</ul>
+</div>
+<div>
+<h2 class="mb-10 text-24">Administration</h2>
+<ul class="list-unstyled">
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library.stanford.edu/general-policies">General policies</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library.stanford.edu/copyright-notice">Copyright notice</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library-status.stanford.edu/">System status</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://library.stanford.edu/library-accessibility">Library accessibility</a></li>
+</ul>
+</div>
+<div>
+<h2 class="mb-10 text-24">Search</h2>
+<ul class="list-unstyled">
+<li>
+<a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://searchworks.stanford.edu/">SearchWorks Catalog</a> |<!-- --> <a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://searchworks.stanford.edu/articles">Articles+</a>
+</li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://exhibits.stanford.edu/">Spotlight at Stanford</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://archives.stanford.edu/">Archival Collections at Stanford </a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://earthworks.stanford.edu/">EarthWorks</a></li>
+<li><a rel="nofollow" class="text-19 font-normal text-black hocus:text-black hocus:no-underline" href="https://guides.library.stanford.edu/">Guides</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="global-footer rs-py-1 bg-cardinal-red text-white"><div class="centered flex flex-col lg:flex-row" title="Common Stanford resources">
+<div class="mb-9 mt-5 text-center"><a rel="nofollow" class="logo type-3 text-white hocus:text-white" href="https://www.stanford.edu">Stanford <br> University</a></div>
+<div class="flex-grow text-left sm:text-center lg:pl-45 lg:text-left xl:pl-50 [&amp;_a:focus]:text-white [&amp;_a:focus]:underline [&amp;_a:hover]:text-white [&amp;_a:hover]:underline [&amp;_a]:text-white [&amp;_a]:no-underline">
+<nav aria-label="global footer menu" class="mb-10 flex flex-row justify-center sm:flex-col sm:items-center lg:items-start"><ul class="list-unstyled mb-10 mr-19 flex flex-col p-0 text-15 sm:mb-4 sm:mr-0 sm:flex-row md:text-17 2xl:text-18">
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://www.stanford.edu">Stanford Home</a></li>
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://visit.stanford.edu/plan/"> <!-- -->Maps &amp; Directions</a></li>
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://www.stanford.edu/search/"> <!-- -->Search Stanford</a></li>
+<li><a rel="nofollow" href="https://emergency.stanford.edu"> <!-- -->Emergency Info</a></li>
+</ul>
+<ul class="list-unstyled mb-10 ml-19 flex flex-col p-0 text-15 sm:mb-0 sm:ml-0 sm:flex-row sm:text-14 sm:link-regular md:text-15 xl:text-16">
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://www.stanford.edu/site/terms/" title="Terms of use for sites">Terms of Use</a></li>
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://www.stanford.edu/site/privacy/" title="Privacy and cookie policy">Privacy</a></li>
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://uit.stanford.edu/security/copyright-infringement" title="Report alleged copyright infringement">Copyright</a></li>
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" title="Ownership and use of Stanford trademarks and images">Trademarks</a></li>
+<li class="sm:mr-10 md:mr-20 lg:mr-27"><a rel="nofollow" href="https://bulletin.stanford.edu/pages/c7vDgeOuJIfpZe8GKmW3" title="Non-discrimination policy">Non-Discrimination</a></li>
+<li><a rel="nofollow" href="https://www.stanford.edu/site/accessibility" title="Report web accessibility issues">Accessibility</a></li>
+</ul></nav><div class="text-center text-13 sm:text-14 lg:text-left">
+<span class="whitespace-no-wrap">© Stanford University.</span><span class="whitespace-no-wrap">   Stanford, California 94305. </span>
+</div>
+</div>
+</div></div></footer>
+</div>
+</body>
 </html>

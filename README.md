@@ -9,6 +9,16 @@
 3. Now, you can visit http://localhost:3000/ for the Bento app
 
 
+### Copying the library website template
+
+Run the following rake task
+```
+bin/rails generate_website
+```
+
+It will overwrite the view layout.  This file should be checked in after testing.
+
+
 ## Example of running a search from the Rails console
 
 ```

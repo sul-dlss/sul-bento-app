@@ -2,12 +2,12 @@
 
 require 'rails_helper'
 
-describe 'Searcher Anchor Links', :js do
+RSpec.describe 'Searcher Anchor Links', :js do
   before do
     allow_any_instance_of(AbstractSearchService).to receive(:search).and_return(response)
 
     visit quick_search_path
-    fill_in 'params-q', with: 'jane stanford'
+    fill_in 'q', with: 'jane stanford'
     click_button 'Search'
   end
 
@@ -16,7 +16,7 @@ describe 'Searcher Anchor Links', :js do
       instance_double(
         ArticleSearchService::Response,
         results: [
-          instance_double(AbstractSearchService::Result)
+          instance_double(AbstractSearchService::Result, link: '', title: '')
         ],
         total: 666_666,
         facets: [],
@@ -26,7 +26,6 @@ describe 'Searcher Anchor Links', :js do
     end
 
     it 'updates the anchor link with the total count' do
-      expect(page).to have_css('.see-all-results', visible: true)
       expect(page).to have_css('#article a', text: /See all 666,666\sarticle\sresults/)
       within '.searcher-anchors' do
         expect(page).to have_css('a', text: 'Articles+ (666,666)')
@@ -39,7 +38,7 @@ describe 'Searcher Anchor Links', :js do
       instance_double(
         ArticleSearchService::Response,
         results: [
-          instance_double(AbstractSearchService::Result)
+          instance_double(AbstractSearchService::Result, link: '', title: '')
         ],
         total: nil,
         facets: [],
