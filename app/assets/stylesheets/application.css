@@ -42,8 +42,43 @@
   font-size: 1.125rem;
 }
 
+.result-set-heading {
+  color: var(--stanford-black);
+}
+
 .global-alert {
   border: 1px solid rgb(204, 0, 0);
   margin: 10px auto;
   padding: 10px;
+}
+
+.card {
+  --bs-card-border-radius: 0;
+  border: 1px solid var(--stanford-digital-red);
+  border-top: 5px solid var(--stanford-digital-red);
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  .photo {
+    max-width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 9999px;
+    overflow: hidden;
+    position: relative;
+    top: calc(-50px - 1.5rem);
+    left: calc(50% - 50px);
+    img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      object-fit: cover;
+    }
+  }
+  .text {
+    position: absolute;
+    top: 3.75rem;
+  }
+  .name {
+    color: var(--stanford-black);
+  }
 }

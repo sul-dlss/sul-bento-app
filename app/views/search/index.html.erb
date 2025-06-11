@@ -27,6 +27,11 @@
             </div>
           </turbo-frame>
         <% end %>
+        <div class="module-container" id="specialist-main">
+          <div class="module-contents me-3">
+            <%= render 'specialist', specialist: @specialist if @specialist %>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -34,6 +39,7 @@
       <div class="bg-secondary py-3 px-4">
         <div id="webside-aside" class="pb-5"></div>
         <div id="guides-aside"></div>
+        <div id="specialist-aside"></div>
       </div>
     </aside>
   </div>
