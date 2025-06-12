@@ -59,6 +59,7 @@
   }
   .icon {
     height: 1rem;
+    vertical-align: sub;
   }
   .text-green {
     color: var(--stanford-digital-green);
