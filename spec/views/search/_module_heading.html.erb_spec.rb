@@ -3,12 +3,16 @@
 require 'rails_helper'
 
 RSpec.describe 'search/_module_heading' do
-  let(:catalog) do
+  let(:result) do
     instance_double(CatalogSearcher, total: total, see_all_link: 'https://searchworks.stanford.edu/articles?q=climate%20change')
+  end
+  let(:service) { Service.new('catalog') }
+  let(:presenter) do
+    SearchPresenter.new(service, result)
   end
 
   before do
-    render 'search/module_heading', service_name: 'catalog', searcher: catalog
+    render 'search/module_heading', presenter:
   end
 
   context 'with no results' do
