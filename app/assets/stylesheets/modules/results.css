@@ -116,3 +116,23 @@
 .text-cardinal {
   color: var(--stanford-cardinal);
 }
+
+#modules {
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+#modules aside, #modules .main-contents {
+  display: contents;
+}
+
+@media screen and (min-width: 1200px) {
+  #modules {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: unset;
+  }
+  #modules aside, #modules .main-contents {
+    display: flex !important;
+  }
+}
