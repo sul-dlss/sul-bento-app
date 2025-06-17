@@ -24,7 +24,12 @@ class ArticleSearchService < AbstractSearchService
           format: doc['eds_publication_type'],
           journal: doc['eds_source_title'],
           icon: 'notebook.svg',
-          description: doc['eds_abstract']
+          issue: doc['eds_issue'],
+          description: doc['eds_abstract'],
+          page_count: doc['eds_page_count'],
+          page_start: doc['eds_page_start'],
+          pub_date: doc['eds_publication_date'],
+          volume: doc['eds_volume']
         )
 
         # Break up the HTML string into the pieces we use

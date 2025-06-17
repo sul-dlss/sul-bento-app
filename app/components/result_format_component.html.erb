@@ -1,0 +1,5 @@
+<span class="fw-semibold"><%= result.format %></span>
+<% if result.physical %>
+  <% if result.format %>&mdash; <% end %>
+  <%= result.physical %>
+<% end %>

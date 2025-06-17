@@ -6,11 +6,7 @@
 <% if result.icon.present? || result.physical %>
   <div class="pb-1 ">
     <%= image_tag result.icon, aria: { hidden: true }, class: 'icon mx-1' %>
-    <span class="fw-semibold"><%= result.format %></span>
-    <% if result.physical %>
-      <% if result.format %>&mdash; <% end %>
-      <%= result.physical %>
-    <% end %>
+    <%= render result_format_component(result).new(result:) %>
   </div>
 <% end %>
 <% if result.author.present? %>
@@ -18,9 +14,6 @@
 <% end %>
 <% if result.imprint.present? %>
   <div class="pb-1"><%= result.imprint %></div>
-<% end %>
-<% if result.journal.present? %>
-  <div class="pb-1"><%= result.journal %></div>
 <% end %>
 
 <% if result.description.present? %>

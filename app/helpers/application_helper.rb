@@ -13,6 +13,17 @@ module ApplicationHelper
     [controller_name, action_name].join('-')
   end
 
+  def result_format_component(result)
+    format = result.format&.gsub(/\W+/, '')
+    component_name = "#{format}ResultFormatComponent"
+
+    begin
+      component_name.constantize || ResultFormatComponent
+    rescue NameError
+      ResultFormatComponent
+    end
+  end
+
   def title(page_title = nil)
     query = @query.blank? ? "" : truncate(@query, length: 40, separator: ' ', escape: false)
     page_title ||= []
