@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module IconMappingHelper
+  DEFAULT_ICON = 'notebook.svg'
   HASH = {
     'Loose-leaf' => 'notepad-1.svg',
     'Report' => 'notepad-1.svg',
@@ -28,4 +29,8 @@ module IconMappingHelper
     'Video' => 'camera-film-1.svg',
     'Videos' => 'camera-film-1.svg'
   }.freeze
+
+  def icon_for(format, default_format = 'Book')
+    HASH[format] || HASH[default_format] || DEFAULT_ICON
+  end
 end

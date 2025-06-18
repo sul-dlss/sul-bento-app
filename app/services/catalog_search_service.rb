@@ -25,7 +25,7 @@ class CatalogSearchService < AbstractSearchService
           physical: doc['physical']&.first,
           author: doc['author_person_display']&.first,
           format: doc['format_main_ssim']&.first,
-          icon: IconMappingHelper::HASH[format] || 'notebook.svg',
+          icon: icon_for(format),
           description: doc['summary_display'].try(:join),
           pub_year: doc['pub_year_ss']
         )
