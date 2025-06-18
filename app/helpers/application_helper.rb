@@ -48,4 +48,11 @@ module ApplicationHelper
       Service.new(name)
     end
   end
+
+
+  def enabled_sidebar_searchers
+    @enabled_sidebar_searchers ||= Settings.enabled_sidebar_searchers.map do |name|
+      Service.new(name)
+    end
+  end
 end
