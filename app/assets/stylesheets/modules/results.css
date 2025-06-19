@@ -4,8 +4,8 @@
   .badge {
     --bs-badge-font-weight: normal;
     --bs-badge-padding-y: 0.5em;
-
-    color: var(--bs-body-color) !important;
+    color: var(--bs-body-color);
+    background-color: rgb(var(--bs-secondary-rgb));
   }
 }
 
