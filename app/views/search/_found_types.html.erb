@@ -4,7 +4,7 @@
     <% enabled_searchers.each do |searcher| %>
       <li class="d-flex position-relative align-items-start">
         <a href="#<%= searcher.name %>" class="stretched-link"><%= t("short_display_name", scope: searcher.i18n_key) %></a>
-        <span class="badge rounded-pill text-bg-secondary ms-1">
+        <span class="badge rounded-pill ms-1">
           <turbo-frame id="<%= searcher.name %>_count">&nbsp;</turbo-frame>
         </span>
       </li>
