@@ -2,9 +2,7 @@
 
 class CatalogResult
   include ActiveModel::API
-  attr_accessor :title, :format, :physical, :author, :description, :link, :pub_year, :fulltext_link_html, :fulltext_stanford_only
-
-  alias fulltext_stanford_only? fulltext_stanford_only
+  attr_accessor :title, :format, :physical, :author, :description, :link, :pub_year, :resource_links
 
   FORMAT_TO_ICON = {
     'Archive/Manuscript' => 'box-1.svg',
@@ -23,10 +21,28 @@ class CatalogResult
     'Object' => 'box-3.svg',
     'Software/Multimedia' => 'mouse.svg',
     'Sound recording' => 'microphone-3.svg',
-    'Video' => 'camera-film-1.svg'
+    'Video' => 'camera-film-1.svg',
+    'Video game' => 'game-controller-2.svg',
+    'Video/Film' => 'camera-film-1.svg',
+    'Website' => 'network-web.svg'
   }.freeze
 
   def icon
     FORMAT_TO_ICON.fetch(format, 'notebook.svg')
+  end
+
+  def preferred_resource_link
+    resource_links&.first&.with_indifferent_access
+  end
+
+  def fulltext_stanford_only?
+    preferred_resource_link&.dig(:stanford_only)
+  end
+
+  def link_html
+    return unless preferred_resource_link
+
+    "<span class=\"text-green\">Available online ⮕</span> #{ApplicationController.helpers.link_to preferred_resource_link[:link_text],
+                                                                                                  preferred_resource_link[:href]}"
   end
 end
