@@ -12,10 +12,6 @@
     0 4px 6px -4px rgb(0 0 0/0.1);
 }
 
-.fs-5 {
-  font-size: 1.125rem !important;
-}
-
 .navbar-toggler {
   border: 0;
   &::after {
@@ -130,6 +126,8 @@ header {
     a.nav-link {
       --bs-nav-link-padding-y: 1rem;
       --bs-navbar-nav-link-padding-x: 1.25rem;
+      --sul-link-font-weight: 600;
+      --bs-nav-link-font-size: 1.125rem;
 
       vertical-align: middle;
     }
@@ -140,6 +138,9 @@ header {
 
     a:has(+ button) {
       padding-inline-end: 0.3125rem;
+    }
+    .dropdown-menu {
+      --bs-dropdown-font-size: 1.125rem;
     }
   }
   .navbar-nav {
