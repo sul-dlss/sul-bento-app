@@ -1,42 +1,59 @@
-@import url("modules/masthead.css");
-@import url("modules/results.css");
+@layer framework, component, local;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css")
+layer(framework);
+@import url("https://cdn.jsdelivr.net/gh/sul-dlss/component-library@v2025-06-19/styles/sul.css")
+layer(component);
+@import url("modules/masthead.css") layer(local);
+@import url("modules/results.css") layer(local);
+@import url("component-library-overrides.css") layer(local);
 
-body {
-  min-height: 100vh;
-}
-
-.container-fluid {
-  --container-fluid-padding: 50px;
-  width: calc(100% - var(--container-fluid-padding) + var(--bs-gutter-x));
-}
-
-@media (min-width: 7682px) {
-  .container-fluid {
-    --container-fluid-padding: 100px;
+@layer local {
+  /* Deliver the Source Sans 3 font locally; google fonts subsets their fonts in ways that break ligature ties (e.g. t͡s) for us */
+  @font-face {
+    font-family: "Source Sans 3";
+    font-style: normal;
+    font-weight: 300 700;
+    font-display: swap;
+    src: url(SourceSans3VF-Upright.ttf.woff2) format("woff2");
   }
-}
 
-@media (min-width: 992px) {
-  .container-fluid {
-    --container-fluid-padding: 160px;
+  body {
+    min-height: 100vh;
   }
-}
-@media (min-width: 1200px) {
+
   .container-fluid {
-    --container-fluid-padding: 200px;
+    --container-fluid-padding: 50px;
+    width: calc(100% - var(--container-fluid-padding) + var(--bs-gutter-x));
   }
-}
 
-.fs-1125 {
-  font-size: 1.125rem;
-}
+  @media (min-width: 7682px) {
+    .container-fluid {
+      --container-fluid-padding: 100px;
+    }
+  }
 
-.mb-125 {
-  margin-block-end: 1.25rem;
-}
+  @media (min-width: 992px) {
+    .container-fluid {
+      --container-fluid-padding: 160px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container-fluid {
+      --container-fluid-padding: 200px;
+    }
+  }
 
-.global-alert {
-  border: 1px solid rgb(204, 0, 0);
-  margin: 10px auto;
-  padding: 10px;
+  .fs-1125 {
+    font-size: 1.125rem;
+  }
+
+  .mb-125 {
+    margin-block-end: 1.25rem;
+  }
+
+  .global-alert {
+    border: 1px solid rgb(204, 0, 0);
+    margin: 10px auto;
+    padding: 10px;
+  }
 }
