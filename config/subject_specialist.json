@@ -1,6 +1,6 @@
 {
   "query": "e",
-  "count": 129,
+  "count": 128,
   "results": [
     {
       "id": "51d9e75c-404d-4c56-a9bc-fb73f777ae78",
@@ -2372,22 +2372,6 @@
         }
       ],
       "path": "/people/alison-sigua"
-    },
-    {
-      "id": "70666eac-849a-4be8-b118-b84e78f5f45b",
-      "firstName": "Astrid",
-      "lastName": "Smith",
-      "fullTitle": "Imaging Specialist/Production Coordinator, Library Technology\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/astrid-j-smith1375548548000.jpg",
-        "alt": "Astrid Smith"
-      },
-      "personTypes": [
-        {
-          "name": "Staff"
-        }
-      ],
-      "path": "/people/astrid-smith"
     },
     {
       "id": "3207a97f-14d0-4623-b137-00f7b54779bf",
