@@ -1,6 +1,6 @@
 {
   "query": "e",
-  "count": 128,
+  "count": 127,
   "results": [
     {
       "id": "51d9e75c-404d-4c56-a9bc-fb73f777ae78",
@@ -1021,30 +1021,6 @@
         }
       ],
       "path": "/people/james-jacobs"
-    },
-    {
-      "id": "71cecb45-2f99-461f-8509-6f611cbc791c",
-      "firstName": "Anna",
-      "lastName": "Jerve",
-      "fullTitle": "Assistant Collection Manager II, Earth Specimen Collection\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/annajerve1707336091338.jpg",
-        "alt": "Anna Jerve"
-      },
-      "body": "I am responsible for carrying out work related to the overall management and long-term preservation of the geoscience collection belonging to the Doerr School of Sustainability.",
-      "research": [
-        "Geoscience Specimens",
-        "Rock, mineral, and fossil samples"
-      ],
-      "personTypes": [
-        {
-          "name": "Services specialist"
-        },
-        {
-          "name": "Subject specialist"
-        }
-      ],
-      "path": "/people/anna-jerve"
     },
     {
       "id": "a23b019a-3e0e-432d-8cc0-fa5cb7e53a17",
