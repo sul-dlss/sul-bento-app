@@ -1,6 +1,6 @@
 {
   "query": "e",
-  "count": 127,
+  "count": 126,
   "results": [
     {
       "id": "51d9e75c-404d-4c56-a9bc-fb73f777ae78",
@@ -1752,29 +1752,6 @@
         }
       ],
       "path": "/people/ron-nakao"
-    },
-    {
-      "id": "563c8f2c-182a-49e0-949f-10132311fe6e",
-      "firstName": "Amanda",
-      "lastName": "Nelson",
-      "fullTitle": "Chemistry and Chemical Engineering Librarian, Science Library\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/1745011697523912076.jpg",
-        "alt": "Amanda K. Nelson"
-      },
-      "body": "My academic background includes an interdisciplinary focus on law, psychology, and chemistry. I developed new organic synthesis methods during my Ph.D. program at Virginia Tech, which culminated an international collaboration as a Fulbright Scholar. Thereafter, I came to Stanford as Manager of the Undergraduate Laboratory Program, where I packaged our chemistry experiments and shipped them worldwide during the pandemic. Embracing my new career as the Chemistry and Chemical Engineering Librarian, I now turn my attention to curating information and teaching information literacy in science.",
-      "email": "nelsonak@stanford.edu",
-      "mailCode": "5079",
-      "research": [
-        "Chemical Engineering",
-        "Chemistry"
-      ],
-      "personTypes": [
-        {
-          "name": "Subject specialist"
-        }
-      ],
-      "path": "/people/amanda-nelson"
     },
     {
       "id": "33abf796-0373-4420-8027-0e9683e8d412",
