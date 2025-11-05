@@ -851,7 +851,9 @@
       "telephone": "(650) 512-3754",
       "mailCode": "5070",
       "research": [
-        "Biology"
+        "Biology",
+        "Chemical Engineering",
+        "Chemistry"
       ],
       "personTypes": [
         {
@@ -2293,7 +2295,9 @@
         "Linguistics",
         "Management Science and Engineering",
         "Materials Science and Engineering",
-        "Mechanical Engineering"
+        "Mechanical Engineering",
+        "Chemical Engineering",
+        "Chemistry"
       ],
       "personTypes": [
         {
