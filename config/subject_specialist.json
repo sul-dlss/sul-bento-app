@@ -1477,29 +1477,6 @@
       "path": "/people/anh-ly"
     },
     {
-      "id": "cef6ab7e-549b-47a3-9a66-94d74239c59d",
-      "firstName": "Alex",
-      "lastName": "Manchester",
-      "fullTitle": "Mathematics, Statistics & Computational Sciences Librarian, Science Library\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/alex-manchester1714686028983.jpg",
-        "alt": "Alex Manchester"
-      },
-      "body": "I received a Ph.D. in mathematics from Rice University, with research in knot and link concordance, satellite constructions, and 4-dimensional manifolds, particularly in the topological setting. Before coming to Stanford, I also worked as the Mathematics Collection Development assistant at Rice's Fondren Library. I assisted with the selection and acquisition of new books, as well as the weeding of of damaged and outdated books in the collection. Additionally, I contributed to our online research guides, particularly on the history of math, as well as AI and its relationship to accessibility. I also helped to run workshops for students on LaTeX and Overleaf.",
-      "email": "alex32@stanford.edu",
-      "mailCode": "5070",
-      "research": [
-        "Mathematics and Statistics",
-        "Computational Sciences"
-      ],
-      "personTypes": [
-        {
-          "name": "Subject specialist"
-        }
-      ],
-      "path": "/people/alex-manchester"
-    },
-    {
       "id": "0be41166-b526-49d3-b52e-46c569eabba0",
       "firstName": "Peter",
       "lastName": "Mangiafico",
@@ -2543,6 +2520,29 @@
         }
       ],
       "path": "/people/hilary-thorsen"
+    },
+    {
+      "id": "cef6ab7e-549b-47a3-9a66-94d74239c59d",
+      "firstName": "Alex",
+      "lastName": "Threlkeld",
+      "fullTitle": "Mathematics, Statistics & Computational Sciences Librarian, Science Library\n",
+      "photo": {
+        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/alex-threlkeld1714686028983.jpg",
+        "alt": "Alex Threlkeld"
+      },
+      "body": "I select print and electronic materials and manage Stanford's subscriptions in my subject areas, I am the liaison between Stanford University Libraries and the Mathematics and Statistics Departments, and I teach Carpentries (and Carpentries-style) workshops on Python, R, and LaTeX. I received a Ph.D. in mathematics from Rice University, with research in knot and link concordance, satellite constructions, and 4-dimensional manifolds, particularly in the topological setting. Before coming to Stanford, I also worked as the Mathematics Collection Development assistant at Rice's Fondren Library.",
+      "email": "alexthrelkeld@stanford.edu",
+      "mailCode": "5070",
+      "research": [
+        "Mathematics and Statistics",
+        "Computational Sciences"
+      ],
+      "personTypes": [
+        {
+          "name": "Subject specialist"
+        }
+      ],
+      "path": "/people/alex-threlkeld"
     },
     {
       "id": "cebeab70-2184-4e0f-8b56-18b45c52fb15",
