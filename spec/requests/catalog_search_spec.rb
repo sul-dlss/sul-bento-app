@@ -15,4 +15,11 @@ RSpec.describe 'Searching catalog' do
     expect(response).to have_http_status(:ok)
     expect(response.body).to include('<turbo-frame id="catalog_module">')
   end
+
+  context 'when settings are not found' do
+    it 'raises an error' do
+      get '/all/bad?q=frog'
+      expect(response).to have_http_status(:not_found)
+    end
+  end
 end
