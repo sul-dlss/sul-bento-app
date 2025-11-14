@@ -17,7 +17,10 @@ class Service
   end
 
   def settings
-    Settings.public_send(@name)
+    settings = Settings.public_send(@name)
+    raise ActiveRecord::RecordNotFound, "Settings not found for #{@name}" unless settings
+
+    settings
   end
 
   def search_service
