@@ -20,7 +20,7 @@ class SearchController < ApplicationController
   def handle_failed_search
     @service = Service.new(params[:endpoint])
 
-    render 'failed_search'
+    render 'failed_search', status: :internal_server_error
   end
 
   def handle_outdated_browser
