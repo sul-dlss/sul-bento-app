@@ -29,5 +29,8 @@ set :linked_dirs, fetch(:linked_dirs, []).push(
 
 set :honeybadger_env, fetch(:stage)
 
+# See https://github.com/capistrano/bundler/pull/137
+set :bundle_version, 4
+
 # update shared_configs before restarting app
 before 'deploy:restart', 'shared_configs:update'

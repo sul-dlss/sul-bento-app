@@ -144,7 +144,7 @@ GEM
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.6.2)
-    dlss-capistrano (6.0.0)
+    dlss-capistrano (6.1.0)
       bcrypt_pbkdf
       capistrano (~> 3.0)
       capistrano-one_time_key (>= 0.2.0)
