@@ -59,9 +59,6 @@ group :deployment do
   gem 'dlss-capistrano'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 gem 'okcomputer'
 gem 'global_alerts'
 
