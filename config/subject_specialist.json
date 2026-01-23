@@ -1,6 +1,6 @@
 {
   "query": "e",
-  "count": 126,
+  "count": 125,
   "results": [
     {
       "id": "51d9e75c-404d-4c56-a9bc-fb73f777ae78",
@@ -1321,7 +1321,7 @@
       "id": "6fa1046d-bc93-42ad-88a3-3ca68f7adbfb",
       "firstName": "Kristina",
       "lastName": "Larsen",
-      "fullTitle": "Assistant Curator, David Rumsey Map Center\n",
+      "fullTitle": "Associate Curator, David Rumsey Map Center\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/kristina-larsen1683569770724.jpg",
         "alt": "Kristina Liv Larsen"
@@ -1523,7 +1523,7 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/stacemaples1683568991621.jpg",
         "alt": "Stace Maples"
       },
-      "body": "As the Assistant Director of Geospatial Collections &amp; Services at Stanford Libraries, and the Head of The Stanford Geospatial Center, I provide support and collaboration to the Stanford research community in capturing and making sense of the “where” of their work through the acquisition and creation of spatial data, technologies and related services.  An archaeologist by training and a technologist by temperament, I am interested in all aspects of mapping, from the aerial imaging of archaeological sites using kites, balloons and drones, to the development of platforms for the distribution of geographic information, to the intersection of AI and Earth observation imagery. I have over 25 years of experience using Geographic Information Systems, Geotechnology and Location-based Services for research and teaching, with expertise in a broad range of geospatial and supporting data, software and hardware systems.",
+      "body": "As Assistant Director of Geospatial Collections &amp; Services at Stanford Libraries and Head of the Stanford Geospatial Center, I work at the intersection of teaching, research, and applied geospatial innovation. I partner with faculty, students, and research teams across Stanford to design curricula, develop spatial data resources, and apply geospatial methods that help answer complex research questions across the sciences, social sciences, and humanities.<br><br>An archaeologist by training and sa technologist by temperament, I have more than 25 years of hands-on experience with GIS, remote sensing, and location-based technologies. My research interests span the full lifecycle of geospatial information—from data capture, to large-scale platforms for geographic data distribution, and emerging applications of AI and Earth observation imagery. My teaching emphasizes both technical fluency and critical spatial thinking, preparing students and researchers to work effectively with geospatial data in academic and real-world contexts.<br><br>In parallel with my academic work, I collaborate with startups and external partners to translate geospatial research into practice. This includes advising early-stage companies on spatial data strategy, product development, and the responsible use of geospatial and AI technologies. Across the classroom, the lab, and the startup ecosystem, my work is driven by a commitment to expanding access to geospatial tools and helping others make meaningful sense of the “where” in their work.",
       "email": "maples@stanford.edu",
       "mailCode": "2211",
       "research": [
@@ -1642,7 +1642,7 @@
       "lastName": "Murphy Kao",
       "fullTitle": "Director, East Asia Library, East Asia Library\n",
       "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/regan-murphy-kao1685055672639.jpg",
+        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/regan-murphy-kao1769022109084.jpg",
         "alt": "Regan Murphy Kao"
       },
       "body": "As the Director of the East Asia Library, I oversee all aspects of the library, including access services, collection development, special collections and technical services for Chinese, Japanese, Korean and English-language materials on East Asia. I started at Stanford Libraries as the Japanese Studies Librarian in 2012 and became the Head of Special Collections a few years later. Before joining Stanford, I completed a postdoctoral fellowship at U.C. Berkeley and received a PhD from Harvard with research focused on debates over the intersection of language, history and ritual in 18th century Japan. My love of libraries began during a formative year working at Starr East Asia Library in New York City soon after graduating from Columbia with a B.A. in East Asian Studies.",
@@ -2281,26 +2281,6 @@
         }
       ],
       "path": "/people/linnea-shieh"
-    },
-    {
-      "id": "eefea5f0-62cc-4152-bbbd-2fd4dcdb5432",
-      "firstName": "Alison",
-      "lastName": "Sigua",
-      "fullTitle": "Media Center Librarian, University Libraries\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/alison-sigua1705098729945.jpg",
-        "alt": "Alison Sigua"
-      },
-      "body": "Alison is the Media Center Librarian and oversees the Media Center staff and services. The Media &amp; Microtext Center is located on the Lower Level of Cecil H. Green Library.<br><br>Prior to Stanford, Alison had served nearly 10 years as a public librarian and public library supervisor in the Bay Area. She is passionate about access equity, creating inclusive and welcoming spaces, and working towards sustainable practices both personally and professionally.",
-      "email": "adegeus@stanford.edu",
-      "telephone": "(650) 724-9313",
-      "mailCode": "6063",
-      "personTypes": [
-        {
-          "name": "Services specialist"
-        }
-      ],
-      "path": "/people/alison-sigua"
     },
     {
       "id": "3207a97f-14d0-4623-b137-00f7b54779bf",
