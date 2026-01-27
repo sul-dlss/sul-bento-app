@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     def initialize; end
 
     def matches?(request)
-      return false unless request.params[:q]
+      return false unless request.params[:q].try(:scrub).present?
 
       doi = DoiQueryConstraint.extract_doi(request.params[:q])
       DoiQueryConstraint.doi_regex.match(doi)
@@ -31,7 +31,7 @@ Rails.application.routes.draw do
     }
   end
 
-  constraints(lambda { |request| request.params[:q].blank? || request.params[:q].scrub.blank? }) do
+  constraints(lambda { |request| request.params[:q].try(:scrub).blank? }) do
     get '/' => 'pages#home'
     get '/all' => 'pages#home', as: 'homepage'
   end
