@@ -1,7 +1,7 @@
 <% title %>
 <section class="bg-secondary py-4">
   <div class="container-fluid" style="max-width: 600px">
-    <form class="search-query-form d-flex" action="/all" accept-charset="UTF-8" method="get">
+    <form class="bento-search-query-form d-flex" action="/all" accept-charset="UTF-8" method="get">
       <label class="visually-hidden" for="q">search for</label>
       <%= text_field_tag 'q', params[:q], class: "search-q q form-control rounded-left rounded-start pe-2", type: 'search', autocomplete: 'off', spellcheck: false, required: true %>
       <button class="btn btn-secondary search-btn d-flex align-items-center justify-content-center" type="submit" id="search"><span class="submit-search-text">Search</span></button>
@@ -24,7 +24,7 @@
           <turbo-frame id="<%= searcher.name %>_module" src="/all/<%= searcher.name %>?q=<%= params[:q] %>" class="module-container">
             <div class="module-contents" style="height: 500px;">
               <div class="d-flex justify-content-between align-items-center flex-wrap column-gap-1 mb-1">
-                  <h2 class='result-set-heading h4 mb-0 fw-semibold text-nowrap'>
+                  <h2 class='result-set-heading mb-0 fw-semibold text-nowrap'>
                     <%= t("display_name_html", scope: searcher.i18n_key) %>
                   </h2>
               </div>

@@ -70,7 +70,7 @@
   }
 }
 
-.search-query-form {
+.bento-search-query-form {
   border: 1px solid var(--stanford-40-black);
   padding: 0.5rem;
   border-radius: 2rem;
