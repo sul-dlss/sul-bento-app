@@ -1,14 +1,14 @@
 MAX_RESULTS: 3
 
 global_alert: false
-enabled_searchers:
-  - catalog
-  - article
-  - archives
-  - exhibits
-  - earthworks
-  - library_website
-  - libguides
+enabled_searchers: []
+#   - catalog
+#   - article
+#   - archives
+#   - exhibits
+#   - earthworks
+#   - library_website
+#   - libguides
 catalog:
   api_url: "https://searchworks.stanford.edu/?q=%{q}&rows=%{max}&format=json"
   query_url: "https://searchworks.stanford.edu/?q=%{q}"

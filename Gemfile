@@ -71,3 +71,9 @@ gem "redis", "~> 5.4"
 gem "turbo-rails", "~> 2.0"
 
 gem "stimulus-rails", "~> 1.3"
+
+gem "torch-rb", "~> 0.23.1"
+
+gem "transformers-rb", "~> 0.1.7"
+
+gem "parallel", "~> 1.27"
