@@ -50,6 +50,8 @@ class AbstractSearchService
 
   # @param [String] query
   def search(query)
+    raise NoResults, 'empty query' if query.blank?
+
     response = benchmark format("%s #{benchmark_name}", CGI.escape(query)) do
       @http.get(url(query))
     end
