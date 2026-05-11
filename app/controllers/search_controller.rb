@@ -30,6 +30,8 @@ class SearchController < ApplicationController
   end
 
   def params_q_scrubbed
-    params[:q]&.scrub
+    return nil if params[:q].blank?
+
+    params.expect(:q).scrub
   end
 end
