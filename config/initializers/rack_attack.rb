@@ -1,4 +1,11 @@
+# frozen_string_literal: true
+
 Rack::Attack.cache.store = ActiveSupport::Cache::RedisCacheStore.new(url: Settings.throttling.redis_url) if Settings.throttling.redis_url
+
+# Block requests with nil IPs (e.g. malformed Forwarded header)
+Rack::Attack.blocklist('block nil ip') do |req|
+  req.ip.nil?
+end
 
 Rack::Attack.throttle('req/ip/1m', limit: 15, period: 1.minutes) do |req|
   req.ip if req.path == '/all'
