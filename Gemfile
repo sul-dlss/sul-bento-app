@@ -11,7 +11,7 @@ gem 'propshaft'
 gem 'sqlite3', '~> 2.5'
 gem 'pg', group: :production
 # Use Puma as the app server
-gem 'puma', '~> 6.0'
+gem 'puma', '~> 8.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
