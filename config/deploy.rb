@@ -2,9 +2,9 @@ set :application, 'bento'
 
 set :repo_url, 'https://github.com/sul-dlss/sul-bento-app.git'
 
-# Default branch is :master so we need to update to main
+# Default branch is :master so we need to update to release
 if ENV['DEPLOY']
-  set :branch, 'main'
+  set :branch, 'release'
 else
   ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 end
