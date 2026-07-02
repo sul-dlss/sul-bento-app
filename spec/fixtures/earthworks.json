@@ -37,7 +37,7 @@
         "gbl_resourceClass_sm": {
           "attributes": {
             "label": "Gbl Resource Class Sm",
-            "value": "Polygon"
+            "value": ["Polygon"]
           },
           "id": "https://earthworks.stanford.edu/catalog/ark28722-s73k54#gbl_resourceClass_sm",
           "type": "document_value"
@@ -71,7 +71,7 @@
         "gbl_resourceClass_sm": {
           "attributes": {
             "label": "Gbl Resource Class Sm",
-            "value": "Maps"
+            "value": ["Maps"]
           },
           "id": "https://earthworks.stanford.edu/catalog/stanford-jt832dj5846#gbl_resourceClass_sm",
           "type": "document_value"
@@ -129,7 +129,7 @@
         "gbl_resourceClass_sm": {
           "attributes": {
             "label": "Gbl Resource Class Sm",
-            "value": "Point"
+            "value": ["Point"]
           },
           "id": "https://earthworks.stanford.edu/catalog/stanford-mw789rk2571#gbl_resourceClass_sm",
           "type": "document_value"
