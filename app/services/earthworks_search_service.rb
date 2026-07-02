@@ -16,7 +16,7 @@ class EarthworksSearchService < AbstractSearchService
     def results
       solr_docs = json['data']
       solr_docs.collect do |doc|
-        format = doc.dig('attributes', 'gbl_resourceClass_sm', 'attributes', 'value')
+        format = doc.dig('attributes', 'gbl_resourceClass_sm', 'attributes', 'value', 0)
         EarthworksResult.new(
           title: doc.dig('attributes', 'title'),
           format: format,
