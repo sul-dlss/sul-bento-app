@@ -78,5 +78,21 @@ RSpec.describe LibGuidesSearchService do
         expect { search }.to raise_error(AbstractSearchService::NoResults)
       end
     end
+
+    context 'when query is nil' do
+      let(:query) { nil }
+
+      it 'raises an error instead of sending a request with a nil query' do
+        expect { search }.to raise_error(AbstractSearchService::NoResults)
+      end
+    end
+
+    context 'when query is blank' do
+      let(:query) { '' }
+
+      it 'raises an error instead of sending a request with a blank query' do
+        expect { search }.to raise_error(AbstractSearchService::NoResults)
+      end
+    end
   end
 end
