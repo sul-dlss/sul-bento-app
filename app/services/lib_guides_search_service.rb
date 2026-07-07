@@ -24,6 +24,8 @@ class LibGuidesSearchService < AbstractSearchService
 
   # @param [String] query
   def search(query)
+    raise NoResults, 'empty query' if query.blank?
+
     response = @http.get(url(query))
 
     body = if response.status.success? && response.body.present?
