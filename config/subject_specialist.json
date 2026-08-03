@@ -1,6 +1,6 @@
 {
   "query": "e",
-  "count": 125,
+  "count": 122,
   "results": [
     {
       "id": "51d9e75c-404d-4c56-a9bc-fb73f777ae78",
@@ -13,8 +13,6 @@
       },
       "body": "I provide resources and consultation in data management and analysis. I offer workshops for Python as a Carpentries instructor and for data management planning. I help student, faculty, and staff researchers with data management and sharing plans as well as receiving attribution for their research products, including data and software. I advise on repository selection (including Stanford Digital Repository deposits) and other data management practices. I also offer introductory consultations on data science and artificial intelligence methods.<br><br>My background includes natural history collection stewardship, both of physical objects and their associated data, and biodiversity informatics. I have also worked on research intelligence (aggregating publication and research output).",
       "email": "mabarca@stanford.edu",
-      "telephone": "(650) 721-1918",
-      "mailCode": "2211",
       "personTypes": [
         {
           "name": "Technical specialist"
@@ -33,8 +31,6 @@
       },
       "body": "Vijoy Abraham is the Assistant University Librarian for Research Data Services at the Stanford University Libraries.<br><br>Vijoy has been trained in cognitive science, computational neuroscience, computational social science, medical informatics and information science. He leads a team focused on computational and methodological research support for the Stanford research community, including training, workshops and consultation in data science, digital humanities, research methods, natural language processing, and machine learning.",
       "email": "vijoy@stanford.edu",
-      "telephone": "(650) 521-1427",
-      "mailCode": "6006",
       "research": [
         "Research Data Services"
       ],
@@ -59,8 +55,6 @@
       },
       "body": "As the Assistant University Archivist, I am responsible for accessioning, processing, and cataloging materials that document the history of Stanford University. Additionally, I collaborate with subject specialists on various projects and collections related to university history, manage our student assistant program during the academic year, and work with historically marginalized university community members to provide diverse representation across our archival collections.",
       "email": "hahn1@stanford.edu",
-      "telephone": "(650) 374-9639",
-      "mailCode": "6064",
       "research": [
         "Stanford History",
         "Manuscripts and Archives"
@@ -84,7 +78,6 @@
       "body": "I focus on enhancing, enlarging, and celebrating the Rare Books and Early Manuscripts collections of the Stanford University Libraries. Working with curatorial colleagues across many different departments in the library, I aim to provide support to Stanford faculty and academic programs using Special Collections materials, and to raise awareness of our collections amongst research communities around the world.<br><br>I am passionate about the use of our materials in teaching, and work closely with faculty and students in class sessions and research projects. In order to connect more researchers with our materials, I also am eager to work with colleagues in the library to provide digital access to more and more of our primary source materials.<br><br>To support these broader goals, I also work with rare book dealers and library donors to make sure that Stanford's rare books collections are growing in ways that fulfill current research needs while also anticipating future areas of interest.",
       "email": "blalbrit@stanford.edu",
       "telephone": "(650) 454-4164",
-      "mailCode": "6004",
       "research": [
         "Classics",
         "Rare books"
@@ -106,9 +99,6 @@
         "alt": "Mie Araki"
       },
       "body": "Hello, my name is Mie (me-A), and I have enjoyed working at the Stanford Music Library for 20+ years :-)",
-      "email": "miea@stanford.edu",
-      "telephone": "(650) 725-1147",
-      "mailCode": "3077",
       "personTypes": [
         {
           "name": "Staff"
@@ -118,7 +108,7 @@
     },
     {
       "id": "66d53477-89c5-4bc0-9f4c-eb6fb9d515dd",
-      "firstName": "Catherine",
+      "firstName": "Cathy",
       "lastName": "Aster",
       "fullTitle": "Senior Digital Library Services Manager, Library Technology\n",
       "photo": {
@@ -127,8 +117,6 @@
       },
       "body": "Cathy is a Senior Digital Library Services Manager in Digital Library Systems and Services (DLSS) at Stanford Libraries. In this role, she manages both services and projects, and she also works as a product owner with software engineers, operations staff and designers for the digital library applications she helps support. Cathy is the service manager for Stanford’s Electronic Thesis and Dissertation Submission Program and Stanford’s exhibit platform - called Spotlight. In addition, she is the DLSS Liaison to the Libraries' Geographic Information Systems team and for map projects in collaboration with staff from the David Rumsey Map Center. She also manages numerous digital collection projects, in support of digitization and/or digital library content, preserving in the Stanford Digital Repository and bringing to light collections in SearchWorks and Spotlight at Stanford. Cathy is the Product and Service Management team liaison to the Libraries' Preservation Department and the Science and Engineering Resource Group, as well as the Bowes Art and Architecture Library.<br><br>Cathy spent the first portion of her academic library career as a rare book conservator, later transitioning into preservation program management. Her passion for library and archival collections stems from that foundation. Cathy's interest and shifting work focus to project management motivated her to complete a 6-course, year-long certificate in project management through the UC Berkeley extension. She actively pursues career enhancement and training opportunities in Agile software development methodologies, alongside conflict resolution, mentoring, leadership and advocacy for women in technology. Cathy is a volunteer community mediator with Community Boards in San Francisco. She retired from a 27-year career in the United States Navy Reserve as a Cryptologic Officer, and former Russian Linguist.",
       "email": "caster@stanford.edu",
-      "telephone": "(650) 619-3930",
-      "mailCode": "6069",
       "research": [
         "Digital Library Services",
         "Electronic Thesis and Dissertations",
@@ -139,7 +127,7 @@
           "name": "Technical specialist"
         }
       ],
-      "path": "/people/catherine-aster"
+      "path": "/people/cathy-aster"
     },
     {
       "id": "75fcf168-b37f-4011-9989-09405e68a277",
@@ -152,8 +140,6 @@
       },
       "body": "As a Research Data Curator in the Center for Interdisciplinary Digital Research (CIDR), I help preserve and document research data. My goal is to ensure that the Stanford Libraries' data collections are discoverable and reusable by the university community.",
       "email": "katebar@stanford.edu",
-      "telephone": "(650) 521-6944",
-      "mailCode": "6044",
       "research": [
         "Research Data Services"
       ],
@@ -175,7 +161,6 @@
       },
       "body": "As the head of the Music Library and Archive of Recorded Sound I manage a wonderful team, oversee our collections (print, audiovisual, digital, and archival), and provide support for research into music of all times and places. I have a research background in ethnomusicology with a focus on Jewish music and experimental music in New York City and Mexico City. Before arriving at Stanford Libraries in 2021 I taught at Wellesley College, Harvard, and NYU.",
       "email": "tbarzel@stanford.edu",
-      "mailCode": "3076",
       "research": [
         "Music",
         "Sound Recordings",
@@ -196,13 +181,10 @@
       "lastName": "Bates",
       "fullTitle": "Operations and Collections Specialist, Archive of Recorded Sound\n",
       "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/benjamin-bates1678907278954.jpg",
-        "alt": "Benjamin Bates"
+        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
       "body": "As Operations and Collections Specialist at the Archive of Recorded Sound (ARS), My duties include the initial processing of archival items, cataloging, arrangement/description of archival collections, hiring/supervision of student assistants, and public reference.",
       "email": "bebates@stanford.edu",
-      "telephone": "(650) 723-9312",
-      "mailCode": "3077",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -219,7 +201,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
       "body": "Member of Music Library staff since 1991. Primary responsibilities are cataloging scores and providing internal desktop support for Music Library staff.",
-      "email": "keith.bisaillon@stanford.edu",
       "personTypes": [
         {
           "name": "Staff"
@@ -231,14 +212,13 @@
       "id": "f0e561fc-87dd-46d9-bf1e-94e73d3ca64c",
       "firstName": "Peter",
       "lastName": "Broadwell",
-      "fullTitle": "Manager of AI Modeling & Inference, Research Data Services Admin\n",
+      "fullTitle": "Head of AI Modeling & Inference, Research Data Services Admin\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/peter-broadwell1685660099741.jpg",
         "alt": "Peter Broadwell"
       },
       "body": "As the manager and technical lead of AI Modeling &amp; Inference in Research Data Services, Peter Broadwell works collaboratively with faculty, students and library colleagues to apply emerging AI/ML technologies to diverse cultural datasets, building and deploying novel tools for knowledge exploration and organization. Recent efforts in which he has participated have involved automatic translation and indexing of folklore collections in multiple languages, deep learning-based analyses of theater choreography from video sources, and web-based parsing and playback of digitized player piano rolls.",
       "email": "broadwell@stanford.edu",
-      "mailCode": "6004",
       "research": [
         "Research Data Services"
       ],
@@ -260,8 +240,6 @@
       },
       "body": "Curator for East &amp; Southeast Asian Studies<br>Curator for Religious Studies Collections<br>Public Services Librarian, East Asia Library<br><br>As Curator for East and Southeast Asian Studies and Curator for Religious Studies Collections, I am responsible for developing Stanford's Western-language collections in the areas of East and Southeast Asian studies, and for curating print and electronic materials for the study of both Eastern and Western religious traditions. As Public Services Librarian at the East Asia Library, I manage the library's outreach activities, such as exhibits and other events.<br><br>ORCID: <a href=\"https://orcid.org/0000-0003-3092-352X\">https://orcid.org/0000-0003-3092-352X</a>",
       "email": "jcapitanio@stanford.edu",
-      "telephone": "(650) 683-5766",
-      "mailCode": "3106",
       "research": [
         "Religious Studies",
         "Southeast Asian Studies",
@@ -284,9 +262,6 @@
         "alt": "Juanita Chabot"
       },
       "body": "Operations Manager, Branner Earth Sciences Library and Map Collections.",
-      "email": "jshaikh@stanford.edu",
-      "telephone": "(650) 723-2746",
-      "mailCode": "2211",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -304,6 +279,7 @@
         "alt": "Freja H Cole"
       },
       "body": "As Sound Archives Metadata Librarian, I create metadata primarily for audio and video recordings in the Archive of Recorded Sound. I describe both physical and digitized materials in order to make them more accessible for our users. Before arriving at Stanford, I worked in public services at the Indiana University Cook Music Library.",
+      "email": "fhcole@stanford.edu",
       "path": "/people/freja-cole"
     },
     {
@@ -316,9 +292,6 @@
         "alt": "Lorna Corbetta"
       },
       "body": "As Evening Supervisor, I oversee the hiring, training, and supervision of the dozen or so students who work for the library. In addition, I manage all the Course Reserves for art and architecture classes. I also maintain and prepare all Bowes special collections (Art Locked Stacks)",
-      "email": "corbetta@stanford.edu",
-      "telephone": "(650) 723-4978",
-      "mailCode": "2018",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -337,7 +310,6 @@
       },
       "body": "Nathan's background includes studying music composition (and writing music), performing on French horn, and hosting Jazz radio programs. They have been working in libraries for more than a decade focusing on music and sound recordings. Nathan strives to listen and learn from researchers and colleagues, integrating the knowledge gleaned into ever improving services to researchers and patrons.",
       "email": "ncoy@stanford.edu",
-      "mailCode": "3076",
       "research": [
         "Sound Recordings",
         "Music"
@@ -359,8 +331,6 @@
         "alt": "Tom Cramer"
       },
       "body": "As the Associate University Librarian and Director of Digital Library Systems and Services, I oversee the development and delivery of Stanford’s digital library services that support teaching, learning and research. This includes a wide range of systems, like SearchWorks and the Stanford Digital Repository, and operations supporting digitization, discovery, delivery, preservation and management of digital resources.<br><br>These services are all based on a combination of software (mostly open source) and Stanford's digital library cyberinfrastructure (or what we like to call \"lyberstructure\"). I direct a fabulous team of system administrators, architects and software engineers to build and maintain a combination of robust data center systems that have scaled up to support Stanford's demands for digital asset management and preservation, and loosely coupled asset management services and middleware for content processing.<br><br>Digitization also serves as a cornestone of Stanford's digital library program, and within DLSS I oversee and support a team that operates one of the nation's leading digitization programs. Built to support Stanford's research mission, SUL's digitization program has an awesome combination of breadth and depth, quality and throughput. With nationally recognized expert staff, we have the capacity to digitize books, manuscripts, images, maps, archives, audio, video, film and legacy computer files. <br><br>As the Chief Technology Strategist for SUL, I often engage in the wider digital library arena. I am the founder of the International Image Interoperability Framework (IIIF), and serve as the Chair of the IIIF Consortium's Executive Committee. I am also a founder of the Samvera (aka the Hydra Project); a founding member of the Fedora Repository steering group and catalyst for its redevelopment; and the first adopter and an active contributor to Blacklight. These three successful open source projects, rooted in higher education, provide effective and competitive solutions for dealing with digital asset management and digital information access. <br><br>I have taught workshops on digital preservation and digital interoperability, and currently or previously direct or serve on the steering committees of PASIG (the Preservation and Archiving Special Interest Group), Open Repositories, the International Internet Preservation Coalition (IIPC). I'm the President of the Open Library Foundation, co-Chair for CLOCKSS, and prevsiously served on the Board of Directors (as Vice Chair) for DuraSpace.<br><br>Professional activities <br>* Founder and Chair of the Executive Committee, International Image Interoperability Framework (IIIF)  <br>* President, Open Library Foundation<br>* Co-Chair, CLOCKSS Board of Directors<br>* Co-Founder, the Hydra Project / Samvera Community<br>* Founding Steering Group Member, Fedora Repository<br>* Former Vice Chair, DuraSpace Board of Directors<br>* Member, FOLIO Community Council<br>* Former Steering Group Member, International Internet Preservation Coalition<br>* Chair and Co-Director, Preservation and Archiving Special Interest Group (PASIG)<br>* Former Steering Group Member and Past Program Chair (twice), Open Repositories<br>* Member, VIVO Leadership Group",
-      "email": "tcramer@stanford.edu",
-      "mailCode": "6069",
       "personTypes": [
         {
           "name": "Leadership"
@@ -379,7 +349,6 @@
       },
       "body": "Quinn Daedal (they/them) is the Academic Technology Specialist in the Division of Literatures, Cultures, and Languages, and in the Library, at Stanford University. Prior to coming to Stanford in 2018, Quinn’s many DH adventures included supporting the high-performance computing cluster at UC Berkeley, running the DiRT tool directory with support from the Mellon Foundation, writing books on Drupal for Humanists and University of Chicago library graffiti, and working on the program staff of Project Bamboo, a failed digital humanities cyberinfrastructure initiative.<br><br>Quinn has a BA/MA in Slavic Linguistics from the University of Chicago, and an MLIS from the University of Illinois at Urbana-Champaign. Since coming to Stanford, Quinn has supported numerous non-English DH projects, taught courses on non-English DH, started a Textile Makerspace and YarnLab, developed a tabletop roleplaying game to teach DH project management, and started the Data-Sitters Club, a feminist DH pedagogy and research group focused on Ann M. Martin’s 90’s girls series “The Baby-Sitters Club”. Quinn has served as co-President of the Association for Computers and the Humanities (the US scholarly association for digital humanities) and its representative to ADHO, and advocates for better support for DH in languages other than English.",
       "email": "qad@stanford.edu",
-      "mailCode": "2014",
       "research": [
         "Digital Humanities",
         "Textile Makerspace",
@@ -402,9 +371,6 @@
         "alt": "Catherine Descanzo"
       },
       "body": "I have oversight of the daytime and evening circulation, course reserves, and the student staffing programs in Access Services at Cecil H. Green Library. I also am currently leading the Circulation Subgroup as part of Stanford Libraries' migration to the new open source integrated library system called FOLIO.",
-      "email": "cdescanz@stanford.edu",
-      "telephone": "(650) 723-1492",
-      "mailCode": "6063",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -424,7 +390,6 @@
       "body": "As Map Librarian, I am responsible for the stewardship of the Branner Earth Sciences Library Map Collection. This includes managing and coordinating the physical storage of paper maps, globes, and other cartographic materials as well as selecting new materials. I provide reference services, instruction, and outreach about the use of this collection and related library resources for teaching, learning, and research across diverse disciplines.",
       "email": "zdilles@stanford.edu",
       "telephone": "(650) 725-1103",
-      "mailCode": "2211",
       "research": [
         "Maps",
         "Geospatial Data",
@@ -445,8 +410,6 @@
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
-      "email": "doanc@stanford.edu",
-      "mailCode": "8406",
       "personTypes": [
         {
           "name": "Staff"
@@ -455,22 +418,10 @@
       "path": "/people/chris-doan"
     },
     {
-      "id": "2cca3cbc-7a9a-4fff-91a4-2ff8f598d5b4",
-      "firstName": "Jennifer",
-      "lastName": "Dockter",
-      "fullTitle": "Reference Asst., Learning and Outreach\nStaff, Library Technology\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
-      },
-      "email": "jldock@stanford.edu",
-      "mailCode": "6004",
-      "path": "/people/jennifer-dockter"
-    },
-    {
       "id": "96083e6f-a182-48d4-aa13-65f18c247752",
       "firstName": "Viva",
       "lastName": "Donohoe",
-      "fullTitle": "Master of Arts Student in Communication, admitted Autumn 2022\nCuratorial Asst, Humanities Resource Group\n",
+      "fullTitle": "Master of Arts Student in Communication, admitted Autumn 2022\nStudent Employee, Communication\nCuratorial Asst, Humanities Resource Group\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
@@ -489,7 +440,6 @@
       },
       "body": "Niles Dorn received his BA in Physics &amp; Astronomy from Pomona College. At the Map Center, he assists in overseeing collection structure and technology in service of making Center materials more accessible to students, researchers, and the public.",
       "email": "nedorn@stanford.edu",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -508,8 +458,6 @@
       },
       "body": "As the Science Metadata Librarian in the Reseach Data Services group, my primary role is to support the curation of geospatial data within the Stanford Digital Repository, the Stanford Spatial Data Infrastructure, and EarthWorks. I also provide one-on-one research consultations in data science tools, as well as workshops in Python toolkits such as GDAL, Pandas, and GeoPandas.",
       "email": "kdurante@stanford.edu",
-      "telephone": "(650) 724-5686",
-      "mailCode": "2211",
       "research": [
         "Geospatial data",
         "Stanford Digital Repository",
@@ -532,9 +480,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/glynn-edwards1509504587657.jpg",
         "alt": "Glynn Edwards"
       },
-      "email": "gedwards@stanford.edu",
-      "telephone": "(650) 521-2255",
-      "mailCode": "8406",
       "personTypes": [
         {
           "name": "Staff"
@@ -552,8 +497,7 @@
         "alt": "Claudia Engel"
       },
       "body": "Claudia Engel collaborates with students and faculty on digital research projects in the Anthropology Department, where she also has a lecturer appointment and teaches courses in GIS, Digital Methods, and Critical Data Practices. She is a member of the Research Data Services (RDS) Division at the Stanford Libraries. In that role she teaches workshops and supports  researchers in the use of digital data repositories.",
-      "email": "claudia.engel@stanford.edu",
-      "telephone": "(650) 724-7452",
+      "email": "cengel@stanford.edu",
       "research": [
         "Digital research projects",
         "Anthropology",
@@ -579,7 +523,6 @@
       "body": "Liisi Esse serves as Curator for Estonian and Baltic Studies at Stanford Libraries since 2013. Her main responsibility is to build and maintain Stanford's collection of Estonian, Latvian, Lithuanian, and Finnish material in all formats (books, periodicals, manuscripts, electronic sources, etc.). Her wider goal is to enhance Baltic studies by advising scholars and students interested in the matter, engaging in collaborative projects with other institutions, and organizing events and exhibits at Stanford.<br><br>Liisi also serves as Administrative Executive Director of the Association for the Advancement of Baltic Studies (AABS).",
       "email": "Liisi.Esse@stanford.edu",
       "telephone": "(650) 736-4724",
-      "mailCode": "6065",
       "research": [
         "Baltic Studies",
         "Eastern European History"
@@ -601,33 +544,12 @@
       },
       "body": "I manage metadata for resources in the Stanford Digital Library. My work includes designing and updating data models, developing tools and documentation, implementing standards and taxonomies, and advising content owners on how to ensure their materials are discoverable and accessible. I work with Metadata Services and Digital Library Systems and Services to continually advance Stanford's support for preserving and sharing both digital research outputs and library digital collections.",
       "email": "arcadia@stanford.edu",
-      "telephone": "(650) 498-8058",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Staff"
         }
       ],
       "path": "/people/arcadia-falcone"
-    },
-    {
-      "id": "9e8501da-e8f2-4573-9224-b6f9844ec907",
-      "firstName": "Sarah",
-      "lastName": "Forzetting",
-      "fullTitle": "Associate Director, Acquisitions and Collections Services, Acquisitions Department\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/sarah-forzetting1725923130168.jpg",
-        "alt": "Sarah Forzetting"
-      },
-      "email": "sforzett@stanford.edu",
-      "telephone": "(650) 725-1136",
-      "mailCode": "3103",
-      "personTypes": [
-        {
-          "name": "Staff"
-        }
-      ],
-      "path": "/people/sarah-forzetting"
     },
     {
       "id": "9c5674f0-2ab6-46b6-a0ec-9f69e39a3da7",
@@ -638,9 +560,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
       "body": "I am responsible for the Access services, both online and management of physical collections, digital resources, and technology in the East Asia Library.",
-      "email": "cfosselm@stanford.edu",
-      "telephone": "(650) 353-1025",
-      "mailCode": "3106",
       "research": [
         "Asian Studies",
         "East Asian Studies"
@@ -663,7 +582,6 @@
       },
       "body": "Katie Frey is the Data Curator for Programmatic Access, part of Research Data Services at Stanford University Libraries.  In this role, Katie is involved in developing best practices for API usage to support researchers on campus. She is responsible for helping researchers with creating, managing, transforming, analyzing, preserving, and making accessible their own data.  Katie is also available for one-on-one consultations to assist with discovering and using online bulk data resources, along with workshops on accessing data via APIs.",
       "email": "frey@stanford.edu",
-      "mailCode": "6044",
       "research": [
         "Research Data Services"
       ],
@@ -684,7 +602,6 @@
         "alt": "Hannah Frost"
       },
       "email": "hfrost@stanford.edu",
-      "mailCode": "8404",
       "research": [
         "Digital Library Services",
         "Digitization",
@@ -710,7 +627,6 @@
       "body": "I manage a robust, collaborative exhibition program for the Stanford Libraries that showcases interdisciplinary scholarship, highlights core collections, and serves as a primary point of engagement with the campus community and beyond.",
       "email": "dfuzzell@stanford.edu",
       "telephone": "(650) 521-1037",
-      "mailCode": "6064",
       "personTypes": [
         {
           "name": "Staff"
@@ -720,16 +636,15 @@
     },
     {
       "id": "391ba815-1941-4240-b11d-83523f09ae6f",
-      "firstName": "Christine",
+      "firstName": "Chrissy",
       "lastName": "Garcia",
       "fullTitle": "Geoscience Specimen Collections Curator & Manager, Earth Specimen Collection\n",
       "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/3072981690909890742.jpg",
+        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/chrissy-garcia1690909890742.jpg",
         "alt": "Christine N. Garcia"
       },
       "body": "As the Geoscience Specimen Collection Curator and Manager, I oversee the growth, enhancement, access, and long-term preservation of a significant collection of rock, mineral, fossil, and other geological samples housed in the Stanford Doerr School of Sustainability. These collections support research and teaching at Stanford and beyond.",
       "email": "cngarcia@stanford.edu",
-      "mailCode": "2211",
       "research": [
         "Geoscience Specimens",
         "Rock, mineral, and fossil samples"
@@ -739,7 +654,7 @@
           "name": "Subject specialist"
         }
       ],
-      "path": "/people/christine-garcia-0"
+      "path": "/people/chrissy-garcia"
     },
     {
       "id": "880554a6-4571-4744-a887-626136fadf1d",
@@ -753,7 +668,6 @@
       "body": "Danielle supports research and preserves information produced about and by government agencies at the state, local, and international level. She assists with data and information resources from the State of California, school districts, transportation agencies, cities, counties, the United Nations, European Union, Organisation for Economic Co-Operation and Development (OECD), and other international governmental organizations (IGOs). She was an attorney for 23 years, representing government agencies, institutional investors, and non-profits in real estate and infrastructure transactions. Prior to law school, she was a transportation planner in the Washington, D.C. region.",
       "email": "dgensch@stanford.edu",
       "telephone": "(650) 512-4798",
-      "mailCode": "6067",
       "research": [
         "State, Local, and International Government Information",
         "Public Policy",
@@ -775,9 +689,7 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/kioumars-ghereghlou1700289923730.jpg",
         "alt": "Kioumars Ghereghlou"
       },
-      "body": "As the Curator for Middle East collections, I oversee the planning, development, processing, acquisition, management, and public service of collections on all aspects of Middle East Studies. My main task is collecting materials that support the research and teaching needs of scholars working on various aspects of society and politics in Iran, Turkey, and all Arabic-speaking countries of the Middle East and North Africa. I am responsible for selecting and acquiring various resources, including traditional scholarly publications (print and digital), special collections and archival materials, and materials published via emerging forms of scholarly communication. Moreover, I provide a range of public services to Middle Eastern Studies communities at Stanford, including advanced reference and instruction. I promote using Stanford University Libraries' collections and resources through in-person and online outreach activities and collaborate with other curators and selectors to support interdisciplinary collections and services. I am a historian (Ph.D., 2006, concentration on the early modern and modern Middle East) and have completed a Master's degree in Information Science (2021).",
-      "email": "kghereghlou@stanford.edu",
-      "mailCode": "6066",
+      "body": "As the Curator for Middle East collections at Stanford, I oversee the planning, development, processing, acquisition, management, and public service of collections covering all aspects of Middle East Studies. My primary responsibility is to collect materials that support the research, learning, and teaching needs of students and scholars working on various aspects of society and politics in Iran, Turkey, and all Arabic-speaking countries in the Middle East and North Africa. I select and acquire multiformat resources, including traditional scholarly publications (print and digitized), special collections and archival materials, and materials published through emerging forms of scholarly communication. I also provide a range of services to user communities at Stanford, including advanced reference and instruction. I promote the use of Stanford University Libraries' collections and resources through in-person and online outreach and collaborate with other curators and selectors to support and strengthen interdisciplinary collections and services. By training, I am a historian (Ph.D., 2006) and hold a Master's degree in Information Science.",
       "research": [
         "Middle Eastern Studies"
       ],
@@ -796,8 +708,6 @@
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
-      "email": "sgondorf@stanford.edu",
-      "mailCode": "6066",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -816,7 +726,6 @@
       },
       "body": "Angela Flores is a trans writer and editor. She serves as the editorial coordinator for the Stanford University Library's special collections. Previously, she was the assistant editor for Poetry magazine at the Poetry Foundation and served on the editorial board of the Philip Levine Prize in Poetry. Her writing has been published by Ploughshares, The Normal School, and the Academy of American Poets, among others. She lives in Palo Alto.",
       "email": "aflores0@stanford.edu",
-      "mailCode": "6004",
       "path": "/people/angela-gonzales"
     },
     {
@@ -827,8 +736,6 @@
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
-      "email": "rmgordon@stanford.edu",
-      "mailCode": "8406",
       "personTypes": [
         {
           "name": "Staff"
@@ -847,8 +754,6 @@
       },
       "body": "In my role as Biology Librarian, I support teaching and research in the biological sciences. I select and manage books, journals, and databases in our biology collections, connect researchers with resources from the library, and provide individual and classroom-based instruction on the research process in biology.",
       "email": "kgreenland@stanford.edu",
-      "telephone": "(650) 512-3754",
-      "mailCode": "5070",
       "research": [
         "Biology",
         "Chemical Engineering",
@@ -872,7 +777,7 @@
       },
       "body": "Adan likes to say that his 30+ years as a librarian really started in El Paso when he discovered the public library as recent immigrant, long before his 1988 University of Wisconsin-Madison (MLIS) graduate degree.<br><br>At Stanford his work has centered on acquiring and providing access to resources (primary and secondary, print and digital) covering a broad geographic area: Latin America, Spain, Portugal and the Latina/o, Latinx experience in the United States. Global LGBT issues are also part of Adan’s professional portfolio, and he administers a Facebook group for the Sexualities Section of the Latin American Studies Association (LASA).<br><br>He keeps an dynamic online presence to reach students beyond the Library’s walls: both in English and Spanish. As part of its extensive outreach programs, the Center for Latin American Studies also include Adan’s workshops on integrating Library resources into the K-12 and community college curriculum.<br><br>Adan was part of the initial 2002 group of Library Journal’s Movers &amp; Shakers and has been an active book fair participant in Latin America and Spain. He has reported on these book buying experiences for the Seminar on the Acquisition of Latin American Library Materials (SALALM).",
       "email": "griego@stanford.edu",
-      "mailCode": "6004",
+      "telephone": "(650) 384-9392",
       "research": [
         "Latina/o/x Studies",
         "LGBTQ+ Studies",
@@ -896,8 +801,6 @@
       },
       "body": "Jooyeon Hahm holds a MS in Data Science from UC Berkeley and a PhD in History from the University of Pennsylvania. She previously served as a Postdoctoral Associate in Transnational Asian Studies at Yale University and has taught history at Wharton, Yale, and Brandeis. She interned as a software engineer at EBSCO Information Services, where she developed a pipeline using language models to identify literature reviews from scholarly articles. As the Head of Data Science Training and Consultation, she provides support for quantitative, computational, and algorithmic analysis of research data, including aspects of data management, analysis methods, workflow reproducibility, and ethical considerations. She leads the development of resources such as workshops, tutorials, and online guides aimed at enhancing researchers' skills in applying data science methods, fostering data literacy, and ensuring the effective and ethical use of computational tools in their research. She also oversees a team of graduate student consultants who provide individual consultations.",
       "email": "jhahm@stanford.edu",
-      "telephone": "(650) 272-8754",
-      "mailCode": "6044",
       "personTypes": [
         {
           "name": "Technical specialist"
@@ -916,8 +819,6 @@
       },
       "body": "Dinah Handel is a digital library service manager, and has worked for Stanford Libraries since 2018. She holds an MLIS from Pratt Institute, and a BA from Hampshire College.",
       "email": "dhandel@stanford.edu",
-      "telephone": "(650) 885-1222",
-      "mailCode": "6069",
       "research": [
         "Digitization Services"
       ],
@@ -938,9 +839,6 @@
         "alt": "Andrea Hattendorf"
       },
       "body": "I am the Curatorial Assistant in the Visual Resources Center (VRC) which is located in the Bowes Art and Architecture Library. The VRC provides digital image support for teaching and research at Stanford University. We digitize images on request, provide image database instruction, and maintain a database with over 250,000 digital images that are available to the Stanford community (imagebase.stanford.edu).",
-      "email": "achatten@stanford.edu",
-      "telephone": "(650) 723-3320",
-      "mailCode": "2018",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -960,7 +858,6 @@
       "body": "I oversee all aspects of public services for Music including reference, circulation, instruction, and facilities. I assist patrons in finding and using music research resources, provide tours, mount exhibits, and facilitate digitization requests. I serve as subject liaison to the Department of Special Collections, and am the primary blogger on music topics for Stanford University Libraries. I am webmaster for the Music Library site and have assisted in developing and maintaining the Stanford University Libraries web presence through work with the Website Service Team.<br><br>Member, Music Library Association; International Association of Music Libraries, Archives and Documentation Centres. Previous library experience encompasses academic law and commercial advertising. Additional professional training includes the Western Archives Institute, UC Berkeley; and Rare Book School, University of Virginia.",
       "email": "raymondh@stanford.edu",
       "telephone": "(650) 384-9985",
-      "mailCode": "3077",
       "research": [
         "Music",
         "Jazz",
@@ -1010,8 +907,6 @@
       },
       "body": "I collect materials in a variety of formats (including digital!) and give research assistance in the fields of US Federal government information and public policy. You can find me online at my blog Free Government Information, including a full bio and list of publications <a href=\"http://freegovinfo.info/about/jrjacobs\">http://freegovinfo.info/about/jrjacobs</a>",
       "email": "jrjacobs@stanford.edu",
-      "telephone": "(650) 862-9871",
-      "mailCode": "6067",
       "research": [
         "US Government Information",
         "Public Policy"
@@ -1032,23 +927,17 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/frances-kaplan1741388965694.jpg",
         "alt": "Frances Wratten Kaplan"
       },
-      "email": "fwkaplan@stanford.edu",
-      "telephone": "(650) 460-9720",
-      "mailCode": "8406",
       "path": "/people/frances-kaplan"
     },
     {
       "id": "d7d64880-aad9-4e89-921a-63867bcea358",
       "firstName": "Michael",
       "lastName": "Keller",
-      "fullTitle": "Vice Provost, Academic Council, Stanford University Libraries\n",
+      "fullTitle": "Vice Provost, Stanford University Libraries\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/michael-keller1509521714545.jpg",
         "alt": "Michael A. Keller"
       },
-      "email": "Michael.Keller@stanford.edu",
-      "telephone": "(650) 723-5553",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Leadership"
@@ -1067,7 +956,6 @@
       },
       "body": "My work at Bowes is multi-faceted: selecting materials in all areas of the visual arts, consulting with students and faculty for their research and teaching, teaching with our Locked Stacks (special collections) and more.",
       "email": "kkeller@stanford.edu",
-      "telephone": "(650) 725-9274",
       "research": [
         "Art",
         "Architecture",
@@ -1092,8 +980,6 @@
       },
       "body": "As the Judaica and Hebraica curator, I select and collect material by or about Jews, in any format (from manuscript fragments to Israeli Yiddish theater posters and spiral-bound community cookbooks), in any language, produced anywhere. I also collect material written or performed in Jewish languages (Hebrew, Yiddish, Judeo-Arabic, Ladino, etc.) about any topic. I work with faculty and students to help them find the materials they need for their research and teaching.",
       "email": "kensky@stanford.edu",
-      "telephone": "(650) 723-5688",
-      "mailCode": "6004",
       "research": [
         "Jewish Studies",
         "Hebraica",
@@ -1119,7 +1005,6 @@
       "body": "I've worked at Ohio State University, Alfred University, and came to Stanford in 1988 to work in Meyer Library when it was an undergraduate library.  I also worked in Green Library for a number of years first in General Reference and then later in the Information Center (six years as its head) before coming to Cubberley in 2006.",
       "email": "kkerns@stanford.edu",
       "telephone": "(650) 996-0592",
-      "mailCode": "3097",
       "research": [
         "Education"
       ],
@@ -1142,7 +1027,6 @@
       "body": "Lindsay King (she/her) is the Head Librarian of Bowes Art and Architecture Library at Stanford University. She previously worked as an art librarian at Yale University and Northwestern University, and as a museum educator at the Art Institute of Chicago. Lindsay holds an MS in Library and Information Science from the University of Illinois and an MA in Modern Art History, Theory, and Criticism from the School of the Art Institute of Chicago.",
       "email": "kingl@stanford.edu",
       "telephone": "(650) 723-4952",
-      "mailCode": "2018",
       "research": [
         "Art",
         "Design",
@@ -1175,8 +1059,6 @@
         "alt": "Kevin Kishimoto"
       },
       "body": "My name is Kevin. I am a music metadata librarian. I work on metadata in a music library. When I am not working, I play the theorbo and the lute.",
-      "email": "kishimoto@stanford.edu",
-      "telephone": "(650) 721-8693",
       "personTypes": [
         {
           "name": "Staff"
@@ -1194,7 +1076,6 @@
         "alt": "Donald Knuth"
       },
       "body": "Donald Ervin Knuth is an American computer scientist, mathematician, and Professor Emeritus at Stanford University.<br><br>He is the author of the multi-volume work The Art of Computer Programming and has been called the \"father\" of the analysis of algorithms. He contributed to the development of the rigorous analysis of the computational complexity of algorithms and systematized formal mathematical techniques for it. In the process he also popularized the asymptotic notation. In addition to fundamental contributions in several branches of theoretical computer science, Knuth is the creator of the TeX computer typesetting system, the related METAFONT font definition language and rendering system, and the Computer Modern family of typefaces.<br><br>As a writer and scholar,[4] Knuth created the WEB and CWEB computer programming systems designed to encourage and facilitate literate programming, and designed the MIX/MMIX instruction set architectures. As a member of the academic and scientific community, Knuth is strongly opposed to the policy of granting software patents. He has expressed his disagreement directly to the patent offices of the United States and Europe. (via Wikipedia)",
-      "mailCode": "9015",
       "path": "/people/donald-knuth"
     },
     {
@@ -1207,8 +1088,6 @@
         "alt": "Donald Kohrs"
       },
       "body": "I am the Branch Library Specialist at the Harold A. Miller Library of Stanford University’s Hopkins Marine Station in Pacific Grove. I have  degrees in biology and library science and my current efforts entail researching the history of the Pacific Grove’s Chautauqua Program (1880-1926), the history of the Hopkins Seaside Laboratory (1892-1917) and the early years of the Hopkins Marine Station (1918-1950), Edward F. Ricketts and Jack Calvin: The Publishing of Between Pacific Tides (1939), and The Hamilton Family: John Steinbeck Maternal Ancestors.",
-      "telephone": "(831) 655-6229",
-      "mailCode": "0010",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1226,8 +1105,6 @@
         "alt": "Dan Kook"
       },
       "body": "Dan oversees the privileges department, including library card issuance and assigned study spaces. He also supervises the circulation desk and serves as one of the Expert Partners for the Access Services department. Dan also has 14 years of public library work experience and has been working at Stanford's Green Library since 2016.",
-      "email": "dkook@stanford.edu",
-      "telephone": "(650) 498-8971",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1243,9 +1120,6 @@
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
-      "email": "dkrah@stanford.edu",
-      "telephone": "(650) 387-9536",
-      "mailCode": "8406",
       "path": "/people/david-krah"
     },
     {
@@ -1259,7 +1133,6 @@
       },
       "body": "As the David Rumsey Map Center's Cartographic Metadata Librarian, I manage and catalog all cartographic materials at the center. Additionally, I provide reference assistance and help with the curation of exhibits (both physical and online). A student of English and religious studies by training, I am interested in making the cultural history, influence, and narratives surrounding the cartographic materials to come alive through description.",
       "email": "lkrueger@stanford.edu",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Staff"
@@ -1277,9 +1150,6 @@
         "alt": "Barbara Krupa"
       },
       "body": "I am a scholar and library professional specializing in Slavic and East European studies, with a focus on Polish émigré culture, publishing history, and transnational print media, currently serving as Newspaper Digitization Project Manager at Stanford University’s Green Library, with previously held roles including Interim Curator for Slavic and East European Collections, and Newspaper Collections Project Manager.<br><br>I completed my PhD in Literary Studies from Nicolaus Copernicus University in Toruń, Poland, with distinction for a dissertation on Zygmunt Haupt’s cultural journalism for Voice of America (1951–1960), and two Master of Library and Information Science degrees—one from San José State University and another from the University of Warmia and Mazury in Olsztyn, Poland.<br><br>My professional background includes work with Stanford University Libraries, the Hoover Institution, and the Stanford Law Library, as well as roles in the tech industry as Senior and Staff Polish Language Manager at LinkedIn. Previous experience working as a journalist in Poland and co-founding the Polish-language newspaper Tygodnik Kalifornijski in California.<br><br>Longtime memberships of professional organizations include ASEEES, PAHA, PSA, and PACSLAV, and I have served on the editorial boards of Slavic &amp; East European Information Resources and Studies into the History of the Book and Book Collections. My research centers on Polish publishing and diaspora literature, the activities of the Polish section at Voice of America, and the archival documentation of Polish American cultural history.<br><br>My work is presented at numerous international conferences and publications cover extensive topics including émigré broadcasting, book culture, and archival collections. Editorships include a 2023 special issue on North American special collections and the author of multiple scholarly articles on Zygmunt Haupt, Roy Publishers, and Stanford’s Polonica holdings.<br><br>My linguistic fluencies include English, Polish, and Russian, and bibliographic reading proficiency in several Central and Eastern European languages.",
-      "email": "krupa@stanford.edu",
-      "telephone": "(650) 725-1177",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Staff"
@@ -1298,7 +1168,6 @@
       },
       "body": "Hello! I am the Engineering Librarian for Research &amp; Teaching Support. Put simply, I help patrons of all levels learn how to use the myriad resources (books, databases, code, makerspace, and more!) in the Terman Library. Please feel free to reach out to me with any questions about our space, tools, and/or collections!<br><br>In my own academic work I am interested in outreach and instruction, and both these activities' relationships to new technology. I also am working on a research project related to credentialing in academic libraries.",
       "email": "lannzach@stanford.edu",
-      "mailCode": "4029",
       "research": [
         "Aeronautics and Astronautics",
         "Bioengineering",
@@ -1348,7 +1217,6 @@
         "alt": "Anna Lee"
       },
       "email": "annaclee@stanford.edu",
-      "mailCode": "6064",
       "research": [
         "Photography",
         "Art History",
@@ -1372,7 +1240,6 @@
       },
       "body": "I provide reference assistance and research support to students and library patrons. Whether you are looking for a particular resource, or you need assistance navigating our collection, I'm here to help you explore our library resources.<br><br>I earned my doctorate in Middle East History at UCLA, where I also worked as a writing and research counselor.",
       "email": "paulinelewis@stanford.edu",
-      "mailCode": "6068",
       "research": [
         "General Reference",
         "History",
@@ -1398,8 +1265,6 @@
         "alt": "Bernadette Liu"
       },
       "body": "Bernadette Liu oversees management of multiple administrative areas within the Stanford University Libraries, including financial operations, annual consolidated budget planning, research administration, capital planning, and facilities services.  Reporting directly to the University Librarian, Bernadette serves as a member of the Libraries’ executive leadership team, providing input and guidance on the Libraries’ overall financial position and strategic direction.  <br><br>Bernadette’s more than twenty years of experience at Stanford spans numerous, diverse areas of the enterprise.  She has held financial leadership roles in the Office of the Vice Provost for Undergraduate Education and the Department of Psychiatry.  During a six-year stint at the Lucile Packard Children’s Hospital (now Stanford Children’s Health), Bernadette played a key role in the planning and implementation of major strategic initiatives, including the complete redesign of the professional services funds flow model between the hospital and the School of Medicine.  She also served for four years in the Office of Sponsored Research, holding both pre-award and post-award staffing positions. <br><br>Bernadette holds a BS from Stanford University and an MBA from the University of Illinois at Urbana-Champaign.",
-      "email": "bliu@stanford.edu",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Leadership"
@@ -1418,7 +1283,6 @@
       },
       "body": "I am the Harold C. Hohbach Curator for History of Science &amp; Technology Collections and the Curator for Film &amp; Media Collections in the Stanford University Libraries. You can find me in the Silicon Valley Archives in Hohbach Hall, Cecil H. Green Library, on the Stanford campus. For more information about me and a complete c.v., see <a href=\"https://lowood.people.stanford.edu/\">https://lowood.people.stanford.edu/</a>.",
       "email": "lowood@stanford.edu",
-      "telephone": "(650) 723-4602",
       "research": [
         "Film and Media Studies",
         "History of Science and Technology",
@@ -1442,7 +1306,6 @@
       },
       "body": "As Director of the Office of Scholarly Communications, I am responsible for services related to scholarly publishing, copyright, and open access, including Stanford University’s Open Access Policy.",
       "email": "rlundy@stanford.edu",
-      "mailCode": "6004",
       "research": [
         "Scholarly Communication",
         "Open Access",
@@ -1464,9 +1327,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/anh-ly1725853743561.jpg",
         "alt": "Anh Ly"
       },
-      "email": "anhly@stanford.edu",
-      "telephone": "(650) 512-6308",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Leadership"
@@ -1484,8 +1344,6 @@
         "alt": "Peter Mangiafico"
       },
       "body": "Peter Mangiafico is a software engineer and product manager in Digital Library Systems and Services in Stanford University Libraries.  Peter works on a number of projects, including the Stanford Digital Repository (SDR) and RIALTO (a research intelligence system).  Before Stanford, he worked on projects with Visionlearning, the Marine Biological Lab in Woods Hole, MA, Harvard University, and the Advent of Complex Life NASA Astrobiology team.  He worked for several years on the Encyclopedia of Life project, and has previously worked as a software engineer, project manager, high school teacher, and NASA researcher.<br><br>Peter's professional interests lie in how the science community can become better connected with the public through improved public outreach and education.  Since most funding is from public sources, the science community has a large vested interest in engaging in this type of activity.  And since the future of our planet depends on appropriate uses of science and technology, the public needs to be informed and become a greater part of the process. Technology such as social media provides opportunities to improve these interactions and reduce the importance of the traditional industries in the middle.",
-      "email": "pmangiafico@stanford.edu",
-      "mailCode": "6069",
       "personTypes": [
         {
           "name": "Staff"
@@ -1504,8 +1362,6 @@
       },
       "body": "As the AUL for Technical and Access Services, I oversee the departments and work with the librarians and staff that are responsible for the acquisition, cataloging, access, and preservation of Stanford Libraries collections.",
       "email": "amanheim@stanford.edu",
-      "telephone": "(650) 725-1122",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Leadership"
@@ -1522,9 +1378,8 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/stacemaples1683568991621.jpg",
         "alt": "Stace Maples"
       },
-      "body": "As Assistant Director of Geospatial Collections &amp; Services at Stanford Libraries and Head of the Stanford Geospatial Center, I work at the intersection of teaching, research, and applied geospatial innovation. I partner with faculty, students, and research teams across Stanford to design curricula, develop spatial data resources, and apply geospatial methods that help answer complex research questions across the sciences, social sciences, and humanities.<br><br>An archaeologist by training and sa technologist by temperament, I have more than 25 years of hands-on experience with GIS, remote sensing, and location-based technologies. My research interests span the full lifecycle of geospatial information—from data capture, to large-scale platforms for geographic data distribution, and emerging applications of AI and Earth observation imagery. My teaching emphasizes both technical fluency and critical spatial thinking, preparing students and researchers to work effectively with geospatial data in academic and real-world contexts.<br><br>In parallel with my academic work, I collaborate with startups and external partners to translate geospatial research into practice. This includes advising early-stage companies on spatial data strategy, product development, and the responsible use of geospatial and AI technologies. Across the classroom, the lab, and the startup ecosystem, my work is driven by a commitment to expanding access to geospatial tools and helping others make meaningful sense of the “where” in their work.",
+      "body": "As Assistant Director of Geospatial Collections &amp; Services at Stanford Libraries and Head of the Stanford Geospatial Center, I work at the intersection of teaching, research, and applied geospatial innovation. I partner with faculty, students, and research teams across Stanford to design curricula, develop spatial data resources, and apply geospatial methods that help answer complex research questions across the sciences, social sciences, and humanities.<br><br>An archaeologist by training and a technologist by temperament, I have more than 30 years of hands-on experience with GIS, remote sensing, and location-based technologies. My research interests span the full lifecycle of geospatial information—from data capture, to large-scale platforms for geographic data distribution, and emerging applications of AI and Earth observation imagery. My teaching emphasizes both technical fluency and critical spatial thinking, preparing students and researchers to work effectively with geospatial data in academic and real-world contexts.<br><br>In parallel with my academic work, I collaborate with startups and external partners to translate geospatial research into practice. This includes advising early-stage companies on spatial data strategy, product development, and the responsible use of geospatial and AI technologies. Across the classroom, the lab, and the startup ecosystem, my work is driven by a commitment to expanding access to geospatial tools and helping others make meaningful sense of the “where” in their work.",
       "email": "maples@stanford.edu",
-      "mailCode": "2211",
       "research": [
         "Geographic Information Systems",
         "Geospatial Data",
@@ -1550,8 +1405,6 @@
       },
       "body": "I am a reference and instruction librarian in Green Library. I conduct library workshops and provide research support for students, primarily in the Program in Writing and Rhetoric (PWR).<br><br>I select general reference materials. I also select materials in Romanian and about Romania.",
       "email": "bmarchis@stanford.edu",
-      "telephone": "(650) 724-6107",
-      "mailCode": "6067",
       "research": [
         "Slavic and Eastern European Studies",
         "General Reference"
@@ -1577,7 +1430,6 @@
       },
       "body": "Anne Ladyem McDivitt(she/her) is the Academic Technology Specialist for the Department of History at Stanford University, as well as a member of the Center for Interdisciplinary Digital Research. She has a background in public and digital history and specializes in digital storytelling and digital public history. She published her monograph Hot Tubs and Pac-Man: Gender and the Early Video Game Industry in the United States in 2020, as well as articles on video game studies and podcasting in education.",
       "email": "ladyem@stanford.edu",
-      "mailCode": "2024",
       "research": [
         "Digital Humanities",
         "History",
@@ -1626,8 +1478,6 @@
       },
       "body": "I oversee the circulation desk, collection management, and general operations at the Music Library.",
       "email": "tylerm2@stanford.edu",
-      "telephone": "(650) 250-3078",
-      "mailCode": "3076",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1646,7 +1496,6 @@
       },
       "body": "As the Director of the East Asia Library, I oversee all aspects of the library, including access services, collection development, special collections and technical services for Chinese, Japanese, Korean and English-language materials on East Asia. I started at Stanford Libraries as the Japanese Studies Librarian in 2012 and became the Head of Special Collections a few years later. Before joining Stanford, I completed a postdoctoral fellowship at U.C. Berkeley and received a PhD from Harvard with research focused on debates over the intersection of language, history and ritual in 18th century Japan. My love of libraries began during a formative year working at Starr East Asia Library in New York City soon after graduating from Columbia with a B.A. in East Asian Studies.",
       "email": "reganmk@stanford.edu",
-      "mailCode": "3106",
       "research": [
         "Japanese Studies",
         "Rare East Asian Materials",
@@ -1672,8 +1521,6 @@
         "alt": "Michael Nack"
       },
       "body": "I provide computer hardware and software support, manage the library maker space (Makerbar), and manage library operations at the Terman Engineering Library.  My interests include tinkering, prototyping, audio-visual technologies, design, and technical instruction.",
-      "email": "mnack@stanford.edu",
-      "mailCode": "4029",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1692,8 +1539,6 @@
       },
       "body": "As the Slavic and East European collections librarian, the geographic scope of the collections I curate includes Poland, Russia, Ukraine, and many other countries in East Central and Southeast Europe (including Greece). I select materials for research and instruction published in and about these regions in new and old formats, in subject areas including literature and linguistics, cultural studies, history, social sciences, fine and performing arts, and popular culture. I also consult and collaborate with students and faculty to help them find the materials that they need for their research and their teaching.",
       "email": "nafpaktitis@stanford.edu",
-      "telephone": "(650) 206-3912",
-      "mailCode": "6004",
       "research": [
         "Slavic and Eastern European Studies",
         "Modern Greek"
@@ -1740,9 +1585,6 @@
         "alt": "Timothy Noakes"
       },
       "body": "I grew up in Florida and Maryland before attending the University of Notre Dame. After graduation I moved to Stanford to work as the Stanford University Novice Rowing Coach. Decided to pursue competitive cycling and was invited to the Olympic Camp as well as qualifying for the Olympic Trials. Awarded a Master's Degree at Stanford University in 2013 for my work on a World War 1 poet by the name of David Jones. My academic interests are World War 1 history and literature.",
-      "email": "tnoakes@stanford.edu",
-      "telephone": "(650) 644-9592",
-      "mailCode": "6064",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1760,8 +1602,6 @@
         "alt": "Danielle  Noble"
       },
       "body": "I am the Evening Librarian for Access Services. I am the course reserves team manager, providing reference services at Cecil Green Library in the evening. I spent most of my young adult life living in various places throughout New York State before attending college in upstate New York. My undergraduate major is in English Literature and Education from SUNY Plattsburgh. I earned my master’s in education from Chaminade University in Honolulu, Hawaii. I spent several years teaching in Hawaii before moving overseas with my spouse. I returned to my education to earn a Master’s of Library and Information Science with a concentration in reference and instruction, which allowed me to combine my passion for teaching with her dedication to information literacy. In my leisure time, I enjoy spending time with my children and dogs, reading, drinking tea, traveling, and playing board games with my family and friends.",
-      "email": "danoble@stanford.edu",
-      "mailCode": "6063",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1778,9 +1618,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
       "body": "I am responsible for creating discovery metadata Korean materials in all formats and subject disciplines. Prior to joining the Stanford University, I was a Team Leader in OCLC Language Sets Service.",
-      "email": "eoh@stanford.edu",
-      "telephone": "(650) 723-9131",
-      "mailCode": "3106",
       "personTypes": [
         {
           "name": "Staff"
@@ -1799,7 +1636,6 @@
       },
       "email": "mgolson@stanford.edu",
       "telephone": "(650) 308-6538",
-      "mailCode": "6069",
       "research": [
         "Born digital archiving",
         "Digital Library Services"
@@ -1823,7 +1659,6 @@
       "body": "As Head Librarian of the Robin Li and Melissa Ma Science Library, I oversee a talented group of librarians and public service staff, focused on supporting Stanford students and faculty with their information needs. As the Physics Librarian, I am responsible for keeping Stanford researchers and students well-supported with information resources and research assistance in physics, applied physics, and astronomy. Through the University Libraries, I also serve as the local Refworks administrator and on the Bibliographic Management support team. Prior to Stanford, I was in the Caltech libraries and even earlier, participated in the Japan Exchange and Teaching (JET) program.",
       "email": "skota@stanford.edu",
       "telephone": "(650) 723-9763",
-      "mailCode": "5070",
       "research": [
         "Physics and Applied Physics"
       ],
@@ -1855,14 +1690,13 @@
       "id": "878c4fc3-4629-43de-9c2f-6ad758789277",
       "firstName": "Alma",
       "lastName": "Parada",
-      "fullTitle": "Head Librarian, Earth Sciences Library\n",
+      "fullTitle": "Assistant University Librarian for Collections and Public Services - Science, University Librarian's Office\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/alma-parada1683921873230.jpg",
         "alt": "Alma Parada"
       },
       "body": "As the Earth and Environmental Sciences Librarian, I support the research and teaching of the Stanford Doerr School of Sustainability. I am responsible for selecting and managing the books, journals, and electronic resources of Branner Earth Sciences Library. I also provide reference services, serve as instructor for data analysis skills workshops, and manage the library’s newsletter and website.",
       "email": "aparada@stanford.edu",
-      "mailCode": "6004",
       "research": [
         "Agriculture",
         "Earth Sciences",
@@ -1888,7 +1722,6 @@
       },
       "body": "Jee-Young Park is responsible for developing and maintaining the Korean Studies Collection and she provides reference services to support the research and teaching needs of the faculty and students at Stanford University. Prior to joining Stanford University, Jee-Young was a Korean Studies Librarian at the University of Chicago. She is a graduate of the San Jose State University School of Library and Information Science and the University of California, Berkeley, where she earned her Bachelor of Arts degree in Japanese Language and Culture.",
       "email": "jyparkaz@stanford.edu",
-      "mailCode": "3106",
       "research": [
         "Korean Studies"
       ],
@@ -1910,7 +1743,6 @@
       },
       "body": "Nikoo is a circulation supervisor at Li &amp; Ma Science Library. She is a Mass Communication Journalist, self-published poet, and multimedia artist. She is an active member of GenArts committee, where she advocates and provides resources for artists in the bay area.",
       "email": "nparsizadeh@stanford.edu",
-      "mailCode": "5070",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1920,7 +1752,7 @@
     },
     {
       "id": "6aa05011-9aa7-4ae0-9b06-6b5320352c9b",
-      "firstName": "C.",
+      "firstName": "Ryan",
       "lastName": "Perkins",
       "fullTitle": "Curator for South Asian Studies and Islamic Studies, Humanities Resource Group\n",
       "photo": {
@@ -1929,7 +1761,6 @@
       },
       "body": "As the Curator for South Asian and Islamic Studies I am responsible for building the library's collection of materials from and about South Asia and the Islamic world in English, European languages, and languages of the Middle East, Central Asia, and South Asia.  This involves building and sustaining a network of antiquarian dealers, book vendors, scholars, publishers, and libraries in South Asia, Central Asia, and the Middle East.  Apart from responding to faculty teaching needs I work in collaboration with the South Asia Center, the Abbasi Program in Islamic Studies, and their affiliates to provide research assistance to faculty, students, and other library users.  I also oversee the Bahai collection. <br><br>PUBLICATIONS:<br>\"Unpacking the Library\" INTRODUCTION SOUTH ASIA-JOURNAL OF SOUTH ASIAN STUDIES<br>Boyk, D., Amstutz, A., Perkins, C.<br>2020; 43 (3): 446-454<br><br>\"From South Asian Print to the Digital Archive: The Quest for Access and Sustainability\" SOUTH ASIA-JOURNAL OF SOUTH ASIAN STUDIES<br>2020; 43 (3): 554-570<br><br>\"A Bounty of Gems: Yūsuf u Zulaykhā in Pashto\" in Jāmī in Regional Contexts: The Reception of ʿAbd al-Raḥmān Jāmī’s Works in the Islamicate World, C. 9th/15th-14th/20th<br>Brill. 2019<br><br>\"London, Lucknow and the Global Indian City c. 1857-1920\" JOURNAL OF THE ROYAL ASIATIC SOCIETY.<br>2017; 27 (4): 611-626<br><br>A New Pablik: Abdul Halim Sharar, volunteerism, and the Anjuman-e Dar-us-Salam in late nineteenth-century India MODERN ASIAN STUDIES<br>2015; 49 (4): 1049-1090<br><br>\"From the Mehfil to the printed word: Public debate and discourse in late colonial India\" in INDIAN ECONOMIC AND SOCIAL HISTORY REVIEW<br>2013; 50 (1): 47-76",
       "email": "c.ryanperkins@stanford.edu",
-      "mailCode": "6004",
       "research": [
         "Islamic Studies",
         "South Asian Studies"
@@ -1939,7 +1770,7 @@
           "name": "Subject specialist"
         }
       ],
-      "path": "/people/c-perkins"
+      "path": "/people/ryan-perkins"
     },
     {
       "id": "2da017a2-3e6d-448a-92e1-a521c415745c",
@@ -1949,9 +1780,6 @@
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
-      "email": "pernell@stanford.edu",
-      "telephone": "(650) 725-1277",
-      "mailCode": "6063",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -1970,7 +1798,6 @@
       },
       "body": "I am the Harold Hohbach historian at the Silicon Valley Archives. You can find out more about me and my work at my personal website, <a href=\"https://charlespetersen.sites.stanford.edu/\">https://charlespetersen.sites.stanford.edu/</a>",
       "email": "charlespetersen@stanford.edu",
-      "mailCode": "6066",
       "research": [
         "History",
         "Technology",
@@ -1994,8 +1821,6 @@
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
       },
-      "email": "pfendler@stanford.edu",
-      "mailCode": "8406",
       "personTypes": [
         {
           "name": "Staff"
@@ -2012,9 +1837,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/yun-qi1721852616617.jpg",
         "alt": "Yun Qi"
       },
-      "email": "yunqi@stanford.edu",
-      "telephone": "(650) 723-7045",
-      "mailCode": "2018",
       "personTypes": [
         {
           "name": "Staff"
@@ -2049,8 +1871,6 @@
       },
       "body": "Regina Lee Roberts (she, her, hers) is the Head of the Social Sciences Resource Group and a collection development librarian. Regina's work centers on facilitating the research process by connecting academic researchers to library resources, research collections and data. Regina assists Stanford University students, faculty, staff and visiting scholars in the navigation and organization of information resources and teaches library research workshops with the goal of enabling researchers to dig deeper into the invaluable collections held by Stanford University Libraries.  <br><br>Collection development responsibilities include the following subject areas: <br>Anthropology, Archaeology &amp; Sub-Saharan African Collections<br><br>Within these subject areas, Regina serves as the primary liaison between the library and the aforementioned academic departments, programs, faculty. Regina provides in-person and online consultations as well as library tours and workshops. Regina designs learner-centered workshops infused with course specific content and invites Stanford faculty and teaching assistants to contact her to schedule a session.<br><br>Regina is interested in archiving social science data for long term preservation and re-use and has been the library liaison to the Stanford Big Local News Project. Regina also leads the collection development for the Black Graphic Design History Collections.",
       "email": "regirob@stanford.edu",
-      "telephone": "(650) 206-3528",
-      "mailCode": "6067",
       "research": [
         "African Studies",
         "Anthropology",
@@ -2090,8 +1910,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/everardo-rodriguez1686331755653.jpg",
         "alt": "Everardo Rodriguez"
       },
-      "email": "ever.rodriguez@stanford.edu",
-      "mailCode": "6064",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2109,9 +1927,6 @@
         "alt": "Kelly Roll"
       },
       "body": "I've worked in libraries for over 38 years and my interests lie in children's and young adult literature and  I love to chat about books in that area.  I also like to promote  Cubberley's historical collections including textbooks and government documents.",
-      "email": "kells@stanford.edu",
-      "telephone": "(650) 723-9463",
-      "mailCode": "3097",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2129,9 +1944,6 @@
         "alt": "Amber Ruiz"
       },
       "body": "I am the Curator of the Visual Resources Center (VRC). The VRC provides digital image support for teaching and research at Stanford University. We digitize images on request, provide image database instruction, and maintain a database with over 250,000 digital images that are available to the Stanford community (imagebase.stanford.edu).",
-      "email": "achruiz@stanford.edu",
-      "telephone": "(650) 723-3320",
-      "mailCode": "2018",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2150,8 +1962,6 @@
       },
       "body": "Josh Schneider is University Archivist at Stanford University, where he partners with community members to collect, preserve, and make accessible Stanford administrative records, faculty papers, and materials documenting campus and student life. His case study on appraisal of electronic records appeared in a recent volume of the Society of American Archivists’ Trends in Archival Practice series. He is a member of the Lighting the Way project, a year-long project led by Stanford University Libraries focused on convening a series of meetings focused on improving discovery and delivery for archives and special collections. Josh previously served as Community Manager for ePADD, open source software that uses named entity recognition to support the appraisal, processing, discovery, and delivery of email archives. He also served on the editorial board of The American Archivist, Journal of Western Archives, and the blog of SAA’s Electronic Records Section (BloggERS!). He received an MLIS from Simmons College and a BA in Philosophy from Brown University.",
       "email": "jschne@stanford.edu",
-      "telephone": "(650) 512-2025",
-      "mailCode": "6064",
       "research": [
         "University Archives"
       ],
@@ -2175,9 +1985,6 @@
         "alt": "Philip Schreur"
       },
       "body": "Philip Schreur is currently the Deputy University Librarian at Stanford University.  He earned a PhD from Stanford in Medieval music theory and an MLIS from the University of California, Berkeley.  Philip has been the Chair of the Program for Cooperative cataloging and deeply involved in the implementation of the new cataloging rules Resource, Description and Access (RDA) in the United States. With a mid-career move to HighWire Press, he developed an interest in the automated taxonomic analysis of digital texts.  Currently, he is in charge of coordinating linked-data project development for the Stanford University Libraries (SUL).  Initial areas of interest include the use of linked data as a mechanism for identity management across traditional resources and those within the digital library, the integration of linked data from disparate sources, and the transition of traditional technical services workflows to processes rooted in linked open data.",
-      "email": "pschreur@stanford.edu",
-      "telephone": "(650) 723-2454",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Leadership"
@@ -2214,9 +2021,6 @@
         "alt": "Elizabeth Shelton"
       },
       "body": "Professional interests include children's literature; special education. Interests/skills outside of work include gardening; landscape management; walking/day-hiking.",
-      "email": "eshelton@stanford.edu",
-      "telephone": "(650) 723-2121",
-      "mailCode": "3097",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2235,8 +2039,6 @@
       },
       "body": "Serials, circulation and course reserves specialist at Li Ma Science Library.",
       "email": "jshen@stanford.edu",
-      "telephone": "(650) 724-3535",
-      "mailCode": "5070",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2255,8 +2057,6 @@
       },
       "body": "As Head of the Terman Engineering Library, I oversee the library staff, physical spaces, and programs that support research and teaching in the School of Engineering.  I work with faculty and staff across the SoE to ensure that the Library maintains up-to-date collections and innovates new services to support many aspects of scholarly work, from academic communications to data deposits to technical skill development.  I provide additional support and oversight for collections across the sciences and engineering.  Additionally I manage library data programs which help to improve the quality of service that the library provides.  I provide reference support for all fields of Engineering, and serve as instructor for workshops on data analysis and information literacy.<br><br>I am also the subject specialist for the Linguistics department, providing reference support and managing the linguistics materials collection in Green Library.",
       "email": "linnea.shieh@stanford.edu",
-      "telephone": "(650) 213-6573",
-      "mailCode": "4029",
       "research": [
         "Aeronautics and Astronautics",
         "Bioengineering",
@@ -2285,6 +2085,7 @@
         "alt": "Felicia A. Smith"
       },
       "body": "Felicia A. Smith, MLIS, is the inaugural Racial Justice and Social Equity Librarian at Stanford University Libraries. She is responsible for outreach to faculty and students across all schools and departments including the Department of African and African American Studies (DAAAS), and Stanford Center for Racial Justice (SCRJ), as well as the Equity, Community, Leadership (ECL) centers. <br><br>Felicia is also the Communication &amp; Journalism Librarian who serves as the primary liaison between the library and those academic departments, programs, faculty and students. She is the library liaison to the Stanford Big Local News Project and the Black Graphic Design History Collections.<br><br>Felicia is responsible for collection development of research materials in all formats including data sources that support the research and teaching needs of Stanford scholars and  that expand the breadth of Stanford’s collections.<br><br>Felicia believes that as a librarian, she is charged with the awesome responsibility of being a keeper of the light and protector of our shared memories. In addition to her numerous national and international presentations, Felicia has published several peer-reviewed articles as well as a book, Cybrarian Extraordinaire, detailing her highly successful and unique approach to library instruction. Felicia created a program that taught Information Literacy using Kindles for inmates in a Juvenile Jail. Previously, Felicia was as a Criminal Defense Private Investigator in Chicago, Illinois, specializing in homicide and narcotics. Her motto is, \"I make the unknown, known.\" <br><br>Felicia received a Master of Library Science degree, from Dominican University and a Bachelor of Arts in Communications from the University of Illinois at Chicago. Her past positions include serving as the Latino Studies Subject Specialist as an Assistant Librarian, at the University of Notre Dame.",
+      "email": "felicias@stanford.edu",
       "research": [
         "African American Studies",
         "Communication",
@@ -2308,7 +2109,6 @@
       },
       "body": "Kathleen M. Smith is the subject specialist for the Germanic Collections &amp; Medieval Studies at Stanford Libraries. Prior to Stanford, she worked in the Research and Development Department of the State and University Library in Göttingen, Germany.",
       "email": "ksmith11@stanford.edu",
-      "mailCode": "6004",
       "research": [
         "Germanic Studies",
         "Medieval Studies"
@@ -2329,8 +2129,6 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/azure-stewart1705602271187.jpg",
         "alt": "Azure Janee Stewart"
       },
-      "email": "azures@stanford.edu",
-      "mailCode": "6067",
       "research": [
         "Psychology",
         "Qualitative Research",
@@ -2350,12 +2148,12 @@
       "lastName": "Stone",
       "fullTitle": "Curator for American and British History, Humanities Resource Group\n",
       "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/image/stanford-person-default-profile-image.png"
+        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/benjamin-stone1784229448335.jpg",
+        "alt": "Benjamin Stone"
       },
       "body": "I have served as the Curator for American and British History at Stanford Libraries since 2005.  From 2016 to the present, I also serve as Associate Director in the Department of Special Collections, where I help to oversee teaching and outreach activities.",
       "email": "bstone@stanford.edu",
       "telephone": "(650) 485-9851",
-      "mailCode": "6067",
       "research": [
         "American and British History",
         "Asian American Studies",
@@ -2378,7 +2176,7 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/friederike-sundaram1713565027134.jpg",
         "alt": "Friederike Sundaram"
       },
-      "body": "As Editor-in-Chief for the Stanford Libraries, I develop and produce books and digital projects that showcase Stanford's Special Collections. I also oversee and coordinate content creation for the Libraries' web presence at library.stanford.edu.",
+      "body": "As Editor-in-Chief at Stanford University Libraries, I develop and produce books and digital projects that showcase the Libraries' Special Collections. I also oversee the website service team that maintains and develops the Libraries' web presence at library.stanford.edu.",
       "email": "fsundara@stanford.edu",
       "personTypes": [
         {
@@ -2391,14 +2189,13 @@
       "id": "6911d744-ca9b-4635-8830-155cb83c31ea",
       "firstName": "Sarah",
       "lastName": "Sussman",
-      "fullTitle": "Curator, French and Italian collections; Head, Humanities and Area Studies, Humanities Resource Group\n",
+      "fullTitle": "Assistant University Librarian for Collections and Public Services - Humanit, University Librarian's Office\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/sarah-sussman1733444820527.jpg",
         "alt": "Sarah Sussman"
       },
-      "body": "I have been Stanford Libraries' Curator of French and Italian since 2002, when I finished my PhD in History (Modern Europe/France/Jewish History) at Stanford. Since 2011, I have also served as head of the Humanities and Area Studies resource unit, promoting the fabulous collections and expertise of my colleagues in these areas of study.",
+      "body": "I am the Assistant University Librarian for Collections and Public Services in the Humanities, Area Studies, and Social Sciences, responsible for strategic management of the following units of Stanford University Libraries: Humanities and Area Studies Resource Group, Social Science Resource Group, as well as the following branch libraries: Bowes Art and Architecture Library, Braun Music Library and ARS, Cubberley Education Library, and the East Asian Library. I also curate the rare and unique French and Francophone materials in special collections . I have been Stanford Libraries' Curator of French and Italian since 2002, when I finished my PhD in History (Modern Europe/France/Jewish History) at Stanford. From 2011-2026, I served as head of the Humanities and Area Studies resource unit, promoting the fabulous collections and expertise of my colleagues in these areas of study.",
       "email": "ssussman@stanford.edu",
-      "mailCode": "6004",
       "research": [
         "French and Francophone Studies",
         "Italian Studies"
@@ -2411,25 +2208,6 @@
       "path": "/people/sarah-sussman"
     },
     {
-      "id": "bef96aa9-06ba-435d-9c0c-0581e44ee369",
-      "firstName": "Julie",
-      "lastName": "Sweetkind-Singer",
-      "fullTitle": "Associate University Librarian, University Librarian's Office\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/julie-sweetkind-singer1687448003068.jpg",
-        "alt": "Julie Sweetkind-Singer"
-      },
-      "body": "I started my career at Stanford as the Map Librarian at Branner Earth Sciences Library and became the head librarian at Branner in 2004.  I was named the Associate University Librarian for the Science and Engineering Resource Group in January 2020.  In June 2022, I was named the Associate University Librarian for Collections and Public Services overseeing the collections librarians and the branch libraries - Art, Combined Sciences, Earth Sciences, East Asia, Education, Engineering, Marine Biology, and Music.",
-      "email": "juliets@stanford.edu",
-      "mailCode": "6004",
-      "personTypes": [
-        {
-          "name": "Leadership"
-        }
-      ],
-      "path": "/people/julie-sweetkind-singer"
-    },
-    {
       "id": "63b8cf1d-70d0-4632-bc43-6aeeb0a216e0",
       "firstName": "Laura",
       "lastName": "Swenson",
@@ -2440,7 +2218,6 @@
       },
       "body": "Laura Swenson received her BS in Product Design from Stanford University and worked in the field of human-centered design prior to her role at the David Rumsey Map Center. At the Map Center, she oversees operations and technology in service of making the collections more accessible to students, researchers and the public.",
       "email": "lauraswenson@stanford.edu",
-      "mailCode": "6004",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2459,7 +2236,6 @@
       },
       "body": "I work to advance teaching, research, and learning with cartographic information and technology.",
       "email": "evanthornberry@stanford.edu",
-      "mailCode": "6004",
       "research": [
         "Cartographic information"
       ],
@@ -2483,9 +2259,6 @@
         "alt": "Hilary Thorsen"
       },
       "body": "I am currently Resource Sharing Libarian in Access Services at Green Library and manage interlibrary loan for Stanford and non-Stanford affiliates, BorrowDirect, and scan-to-PDF services. Formerly, I was Wikimedian-in-Residence as part of the Linked Data for Production (LD4P) project focusing on Wikidata. Prior to that, I served as Metadata Librarian for Humanities in Stanford Libraries.",
-      "email": "thorsenh@stanford.edu",
-      "telephone": "(650) 285-9429",
-      "mailCode": "6063",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2504,7 +2277,6 @@
       },
       "body": "I select print and electronic materials and manage Stanford's subscriptions in my subject areas, I am the liaison between Stanford University Libraries and the Mathematics and Statistics Departments, and I teach Carpentries (and Carpentries-style) workshops on Python, R, and LaTeX. I received a Ph.D. in mathematics from Rice University, with research in knot and link concordance, satellite constructions, and 4-dimensional manifolds, particularly in the topological setting. Before coming to Stanford, I also worked as the Mathematics Collection Development assistant at Rice's Fondren Library.",
       "email": "alexthrelkeld@stanford.edu",
-      "mailCode": "5070",
       "research": [
         "Mathematics and Statistics",
         "Computational Sciences"
@@ -2527,8 +2299,6 @@
       },
       "body": "Associate University Librarian for Special Collections &amp; University Archives.   Rare and Contemporary Artists' Books, Manuscripts Division, Photography Initiative, Reading Room &amp; Public Services.",
       "email": "trujillo@stanford.edu",
-      "telephone": "(650) 387-6816",
-      "mailCode": "6064",
       "research": [
         "Manuscripts and Archives",
         "Fine Press and Contemporary Book Arts"
@@ -2570,9 +2340,6 @@
         "alt": "Roy C. Viado"
       },
       "body": "As Bowes Art &amp; Architecture Library Operations Manager, my library role involves different functional areas of the library.  I supervise, manage, and oversee daily operations including updating and maintaining of equipment and facilities.",
-      "email": "rcviado@stanford.edu",
-      "telephone": "(650) 723-9473",
-      "mailCode": "2018",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2590,8 +2357,6 @@
       },
       "body": "As a Project Archivist I arrange and describe materials donated to the Archive of Recorded Sound in order to make them accessible for researchers.",
       "email": "walker5@stanford.edu",
-      "telephone": "(650) 497-7748",
-      "mailCode": "3076",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2611,7 +2376,6 @@
       "body": "I grew up on the shores of Huntington Beach, CA, and my interest in marine biology goes back as far as I can remember. After spending most of my adult life studying and working in the marine sciences, I jumped ship and became a data specialist with the libraries at Oregon State University in 2012, and have been with Stanford Libraries at Hopkins Marine Station since December 2015. I have a strong interest in exploring how library collections can be leveraged to surface historical environmental and biodiversity data and embrace a \"collections as data\" approach at Miller Library.",
       "email": "thalassa@stanford.edu",
       "telephone": "(831) 655-6228",
-      "mailCode": "6004",
       "research": [
         "Aquatic Studies",
         "Oceanography",
@@ -2636,8 +2400,6 @@
       },
       "body": "As the subject specialist for British and American literature, I collect materials in all formats on topics related to literature in English, theater, dance, and performance studies. I also provide research support for faculty and students doing research on literary and performance studies topics.<br><br>Before coming to Stanford, I was a selector for Widener and Lamont Libraries at Harvard University.  Prior to that, I selected archival and special collections materials for the Open Collections Program, a digitization program at Harvard University Library. I also served as a Lecturer in Women, Gender, and Sexuality Studies at Harvard University.",
       "email": "wingfiel@stanford.edu",
-      "telephone": "(650) 787-5283",
-      "mailCode": "6004",
       "research": [
         "Literatures in English",
         "Theater, Dance, and Performance Studies"
@@ -2660,8 +2422,6 @@
       },
       "body": "I am the Chinese studies librarian at the East Asia Library, responsible for reference service, instruction and collection development for the Chinese collection. I select Chinese language materials for all formats in humanities and social sciences. I help students, faculty and visiting scholars finding information they need for their research, teaching and studies. Prior to coming to Stanford University, I also worked as Chinese librarian at the Duke University Library.",
       "email": "zhxue@stanford.edu",
-      "telephone": "(650) 723-3451",
-      "mailCode": "3106",
       "research": [
         "Chinese Studies"
       ],
