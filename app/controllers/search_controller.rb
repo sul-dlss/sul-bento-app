@@ -1,6 +1,8 @@
 class SearchController < ApplicationController
   allow_browser versions: :modern, block: :handle_outdated_browser
 
+  before_action :check_denylisted_query, only: :show
+
   rescue_from AbstractSearchService::NoResults, HTTP::TimeoutError, with: :handle_failed_search
 
   def index
@@ -21,6 +23,14 @@ class SearchController < ApplicationController
     @service = Service.new(params[:endpoint])
 
     render 'failed_search', status: :internal_server_error
+  end
+
+  # Bots and scrapers have some queries they like to run and we know won't produce useful results. Skip processing
+  # them to avoid unnecessary load and query log pollution.
+  def check_denylisted_query
+    return if params_q_scrubbed.blank?
+
+    raise AbstractSearchService::NoResults if Settings.denylisted_queries.include?(Digest::MD5.hexdigest(params_q_scrubbed))
   end
 
   def handle_outdated_browser

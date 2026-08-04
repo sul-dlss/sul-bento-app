@@ -58,3 +58,6 @@ user_agent: "sul-bento-app"
 
 throttling:
   redis_url:
+
+denylisted_queries:
+  - "fcc7f69de00749dd41f3fd0c0254d8d0"
