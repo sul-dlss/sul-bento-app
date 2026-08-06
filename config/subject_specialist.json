@@ -1,6 +1,6 @@
 {
   "query": "e",
-  "count": 122,
+  "count": 123,
   "results": [
     {
       "id": "51d9e75c-404d-4c56-a9bc-fb73f777ae78",
@@ -1752,7 +1752,7 @@
     },
     {
       "id": "6aa05011-9aa7-4ae0-9b06-6b5320352c9b",
-      "firstName": "Ryan",
+      "firstName": "Christopher",
       "lastName": "Perkins",
       "fullTitle": "Curator for South Asian Studies and Islamic Studies, Humanities Resource Group\n",
       "photo": {
@@ -1770,7 +1770,7 @@
           "name": "Subject specialist"
         }
       ],
-      "path": "/people/ryan-perkins"
+      "path": "/people/christopher-perkins"
     },
     {
       "id": "2da017a2-3e6d-448a-92e1-a521c415745c",
@@ -2129,6 +2129,7 @@
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/azure-stewart1705602271187.jpg",
         "alt": "Azure Janee Stewart"
       },
+      "email": "azures@stanford.edu",
       "research": [
         "Psychology",
         "Qualitative Research",
@@ -2259,6 +2260,8 @@
         "alt": "Hilary Thorsen"
       },
       "body": "I am currently Resource Sharing Libarian in Access Services at Green Library and manage interlibrary loan for Stanford and non-Stanford affiliates, BorrowDirect, and scan-to-PDF services. Formerly, I was Wikimedian-in-Residence as part of the Linked Data for Production (LD4P) project focusing on Wikidata. Prior to that, I served as Metadata Librarian for Humanities in Stanford Libraries.",
+      "email": "thorsenh@stanford.edu",
+      "telephone": "(650) 285-9429",
       "personTypes": [
         {
           "name": "Services specialist"
@@ -2363,6 +2366,18 @@
         }
       ],
       "path": "/people/christopher-walker"
+    },
+    {
+      "id": "e7bef3b5-c247-498b-b45f-cf93e7869629",
+      "firstName": "Parker",
+      "lastName": "Watt",
+      "fullTitle": "Baltic Studies Program Support Librarian, Humanities Resource Group\n",
+      "photo": {
+        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/parker-watt1773682699390.jpg",
+        "alt": "Parker Vance Watt"
+      },
+      "body": "Parker Watt is the Baltic Studies Program Support Librarian at Stanford Libraries, where his responsibility is to assist with programming, event planning, and partnership development related to Baltic Studies. Parker recently completed a U.S. Fulbright research project in Estonia, which combined his previous work in the film industry with his academic interests in international relations. He created the documentary short film series “Resilient Expression: Ukrainian Artists in Estonia,” which examines how Ukrainians are using their work to heal, maintain national identity, and integrate into their new home. While in Estonia, Parker was affiliated with the Johan Skytte Institute of Political Studies at the University of Tartu, where he continued to write and speak on developments in the Baltic region and the United States. Before his Fulbright project, Parker received his Bachelor of Arts in International Relations and a minor in Slavic Languages and Literature from Stanford. He was first introduced to Estonia through the Stanford Global Studies internship in Estonia.",
+      "path": "/people/parker-watt"
     },
     {
       "id": "bcac5527-3aed-41a4-8522-4113b2d7eba5",
