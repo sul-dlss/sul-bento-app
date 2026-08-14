@@ -56,6 +56,8 @@ class AbstractSearchService
       @http.get(url(query))
     end
 
+    raise HTTP::StatusError, response if response.status.forbidden?
+
     unless response.status.success? && response.body.present?
       raise NoResults, "Search response failed: #{url(query)} status: #{response.status} body #{response.body}"
     end

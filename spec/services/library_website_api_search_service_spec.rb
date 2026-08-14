@@ -71,6 +71,18 @@ RSpec.describe LibraryWebsiteApiSearchService do
   it { expect(service).to be_an AbstractSearchService }
   it { expect(service.search(query)).to be_an LibraryWebsiteApiSearchService::Response }
 
+  describe '#search' do
+    context 'when the API responds with 403 Forbidden' do
+      before do
+        stub_request(:get, /.*/).to_return(status: 403)
+      end
+
+      it 'raises the HTTP status error' do
+        expect { service.search(query) }.to raise_error(HTTP::StatusError, 'Unexpected status code 403')
+      end
+    end
+  end
+
   describe '#records' do
     it 'sets the title, description, and link in the document' do
       results = service.search(query).results
