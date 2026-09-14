@@ -71,3 +71,5 @@ gem "redis", "~> 5.4"
 gem "turbo-rails", "~> 2.0"
 
 gem "stimulus-rails", "~> 1.3"
+
+gem 'json', '~> 2.0' # remove once https://github.com/rails/rails/issues/56291 is fixed
