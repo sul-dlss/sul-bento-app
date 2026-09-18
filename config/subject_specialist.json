@@ -1,6 +1,6 @@
 {
   "query": "e",
-  "count": 123,
+  "count": 121,
   "results": [
     {
       "id": "51d9e75c-404d-4c56-a9bc-fb73f777ae78",
@@ -24,7 +24,7 @@
       "id": "e7e6efd6-ba1f-4311-9356-7e2e1a080454",
       "firstName": "Vijoy",
       "lastName": "Abraham",
-      "fullTitle": "Assistant University Librarian for Research Data Services, University Librarian's Office\n",
+      "fullTitle": "Associate University Librarian, RDS, University Librarian's Office\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/vijoy-abraham1773357577131.jpg",
         "alt": "Vijoy Abraham"
@@ -105,29 +105,6 @@
         }
       ],
       "path": "/people/mie-araki"
-    },
-    {
-      "id": "66d53477-89c5-4bc0-9f4c-eb6fb9d515dd",
-      "firstName": "Cathy",
-      "lastName": "Aster",
-      "fullTitle": "Senior Digital Library Services Manager, Library Technology\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/catherine-aster1713376065610.jpg",
-        "alt": "Cathy Aster"
-      },
-      "body": "Cathy is a Senior Digital Library Services Manager in Digital Library Systems and Services (DLSS) at Stanford Libraries. In this role, she manages both services and projects, and she also works as a product owner with software engineers, operations staff and designers for the digital library applications she helps support. Cathy is the service manager for Stanford’s Electronic Thesis and Dissertation Submission Program and Stanford’s exhibit platform - called Spotlight. In addition, she is the DLSS Liaison to the Libraries' Geographic Information Systems team and for map projects in collaboration with staff from the David Rumsey Map Center. She also manages numerous digital collection projects, in support of digitization and/or digital library content, preserving in the Stanford Digital Repository and bringing to light collections in SearchWorks and Spotlight at Stanford. Cathy is the Product and Service Management team liaison to the Libraries' Preservation Department and the Science and Engineering Resource Group, as well as the Bowes Art and Architecture Library.<br><br>Cathy spent the first portion of her academic library career as a rare book conservator, later transitioning into preservation program management. Her passion for library and archival collections stems from that foundation. Cathy's interest and shifting work focus to project management motivated her to complete a 6-course, year-long certificate in project management through the UC Berkeley extension. She actively pursues career enhancement and training opportunities in Agile software development methodologies, alongside conflict resolution, mentoring, leadership and advocacy for women in technology. Cathy is a volunteer community mediator with Community Boards in San Francisco. She retired from a 27-year career in the United States Navy Reserve as a Cryptologic Officer, and former Russian Linguist.",
-      "email": "caster@stanford.edu",
-      "research": [
-        "Digital Library Services",
-        "Electronic Thesis and Dissertations",
-        "Spotlight Digital Exhibits"
-      ],
-      "personTypes": [
-        {
-          "name": "Technical specialist"
-        }
-      ],
-      "path": "/people/cathy-aster"
     },
     {
       "id": "75fcf168-b37f-4011-9989-09405e68a277",
@@ -475,7 +452,7 @@
       "id": "a45eb9d0-f59b-48b6-9caa-6dfe271deef3",
       "firstName": "Glynn",
       "lastName": "Edwards",
-      "fullTitle": "Assistant Director, Special Collections\n",
+      "fullTitle": "Associate Director, Archival and Manuscript Processing, Special Collections\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/glynn-edwards1509504587657.jpg",
         "alt": "Glynn Edwards"
@@ -1324,7 +1301,7 @@
       "id": "c85b7d41-e995-4b0c-9ada-eaf11fc9380a",
       "firstName": "Anh",
       "lastName": "Ly",
-      "fullTitle": "Assistant University Librarian for External Relations, University Librarian's Office\n",
+      "fullTitle": "Associate University Librarian, University Librarian's Office\n",
       "photo": {
         "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/anh-ly1725853743561.jpg",
         "alt": "Anh Ly"
@@ -1758,7 +1735,7 @@
     },
     {
       "id": "6aa05011-9aa7-4ae0-9b06-6b5320352c9b",
-      "firstName": "Christopher",
+      "firstName": "C. Ryan",
       "lastName": "Perkins",
       "fullTitle": "Curator for South Asian Studies and Islamic Studies, Humanities Resource Group\n",
       "photo": {
@@ -1776,7 +1753,7 @@
           "name": "Subject specialist"
         }
       ],
-      "path": "/people/christopher-perkins"
+      "path": "/people/perkins"
     },
     {
       "id": "2da017a2-3e6d-448a-92e1-a521c415745c",
@@ -2125,29 +2102,6 @@
         }
       ],
       "path": "/people/kathleen-smith"
-    },
-    {
-      "id": "707d42a7-09e6-4901-b231-b497aa6e721a",
-      "firstName": "Azure",
-      "lastName": "Stewart",
-      "fullTitle": "Social Sciences - Psych, Sociology, Qual Research, Social Sciences Resource Group\n",
-      "photo": {
-        "url": "https://library.sites-pro.stanford.edu/sites/library/files/media/person/azure-stewart1705602271187.jpg",
-        "alt": "Azure Janee Stewart"
-      },
-      "email": "azures@stanford.edu",
-      "research": [
-        "Psychology",
-        "Qualitative Research",
-        "Sociology",
-        "Urban Studies"
-      ],
-      "personTypes": [
-        {
-          "name": "Subject specialist"
-        }
-      ],
-      "path": "/people/azure-stewart"
     },
     {
       "id": "5aaf56b5-1988-4a70-a3e2-774beb6cb227",
