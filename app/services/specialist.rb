@@ -36,7 +36,16 @@ Specialist = Data.define(:name, :full_title, :research_areas, :description, :pho
     # surely every specialist has the letter 'e' somewhere, right?
     response = HTTP.get('https://library.stanford.edu/api/people/search?q=e')
 
-    Rails.root.join('config/subject_specialist.json').write(JSON.pretty_generate(JSON.parse(response.body)))
+    data = JSON.parse(response.body)
+
+    patch_bad_sws_data!(data)
+
+    Rails.root.join('config/subject_specialist.json').write(JSON.pretty_generate(data))
+  end
+
+  def self.patch_bad_sws_data!(data)
+    c_perkins = data['results'].find { |x| x['id'] == '6aa05011-9aa7-4ae0-9b06-6b5320352c9b' }
+    c_perkins['firstName'] = 'C. Ryan' if c_perkins&.dig('firstName') == '.'
   end
 
   def self.from_sws_json(data)
