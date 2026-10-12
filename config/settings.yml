@@ -39,9 +39,11 @@ exhibits:
   num_results_shown: 3
   query_url: "https://exhibits.stanford.edu/search?q=%{q}"
 library_website:
-  api_url: "https://library.sites-pro.stanford.edu/jsonapi/index/full_site_content?fields[node--stanford_page]=path,title,su_page_description&filter[fulltext]=%{q}&page[limit]=%{max}"
+  api_url: "https://PIE1C3NH1U-dsn.algolia.net/1/indexes/library_main/query"
+  app_id: PIE1C3NH1U
+  # Algolia search-only key: public and read-only
+  search_key: 480a02dab26ec59589f37014e3fd2f59
   query_url: "https://library.stanford.edu/search/?q=%{q}"
-  link_url: "https://library.stanford.edu/%{id}"
   home_url: "https://library.stanford.edu"
   implementation: LibraryWebsiteApiSearchService
 earthworks:
