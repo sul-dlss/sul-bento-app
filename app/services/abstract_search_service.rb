@@ -53,7 +53,7 @@ class AbstractSearchService
     raise NoResults, 'empty query' if query.blank?
 
     response = benchmark format("%s #{benchmark_name}", CGI.escape(query)) do
-      @http.get(url(query))
+      fetch(query)
     end
 
     raise HTTP::StatusError, response if response.status.forbidden?
@@ -75,6 +75,13 @@ class AbstractSearchService
   private
 
   delegate :logger, to: :Rails
+
+  # Performs the HTTP request for the query; override for APIs that need something other than a GET
+  # @param [String] query
+  # @return [HTTP::Response]
+  def fetch(query)
+    @http.get(url(query))
+  end
 
   def benchmark(message)
     result = nil

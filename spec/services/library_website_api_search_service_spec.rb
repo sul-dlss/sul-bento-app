@@ -8,73 +8,70 @@ RSpec.describe LibraryWebsiteApiSearchService do
   let(:response) do
     JSON.dump(
       {
-        jsonapi: {
-          version: "1.0",
-          meta: {
-            links: {
-              self: {
-                href: "http://jsonapi.org/format/1.0/"
-              }
-            }
-          }
-        },
-        data: [
+        hits: [
           {
-            type: "node--stanford_page",
-            id: "0ad8a8c0-9c66-4fdc-96e5-ab0b6dabd8a0",
-            links: {
-              self: {
-                href: "https://library.sites-pro.stanford.edu/jsonapi/node/stanford_page/0ad8a8c0-9c66-4fdc-96e5-ab0b6dabd8a0?resourceVersion=id%3A17206"
-              }
-            },
-            attributes: {
-              title: "Work with data",
-              path: {
-                alias: "/services/work-data",
-                pid: 2086,
-                langcode: "en"
-              },
-              su_page_description: "First result description"
-            }
+            title: 'Work with data',
+            url: 'https://library.stanford.edu/services/work-data',
+            summary: 'First result <b>description</b>',
+            updated: 1_759_000_000,
+            type: 'stanford_page',
+            objectID: '2086'
           },
           {
-            type: "node--stanford_page",
-            id: "e1117434-f6d7-448a-9d4a-80f7e4bc992a",
-            links: {
-              self: {
-                href: "https://library.sites-pro.stanford.edu/jsonapi/node/stanford_page/e1117434-f6d7-448a-9d4a-80f7e4bc992a?resourceVersion=id%3A18441"
-              }
-            },
-            attributes: {
-              title: "Promote your research",
-              path: {
-                alias: "/services/promote-your-research",
-                pid: 2351,
-                langcode: "en"
-              },
-              su_page_description: "this is a page that describes how Stanford Libraries can help students and scholars to promote their research"
-            }
+            title: 'Promote your research',
+            url: 'https://library.stanford.edu/services/promote-your-research',
+            summary: 'this is a page that describes how Stanford Libraries can help students and scholars to promote their research',
+            updated: 1_758_000_000,
+            type: 'stanford_page',
+            objectID: '2351'
           }
         ],
-        meta: {
-          count: 207
-        }
+        nbHits: 207,
+        page: 0,
+        hitsPerPage: 3
       }
     )
   end
   let(:query) { 'chinese art' }
 
+  let(:algolia_url) { Settings.library_website.api_url }
+
   before do
-    stub_request(:get, /.*/).to_return(body: response)
+    stub_request(:post, algolia_url).to_return(body: response)
   end
 
   it { expect(service).to be_an AbstractSearchService }
   it { expect(service.search(query)).to be_an LibraryWebsiteApiSearchService::Response }
 
   describe '#search' do
+    it 'POSTs the query to Algolia with the search-only credentials' do
+      service.search(query)
+
+      expect(
+        a_request(:post, algolia_url)
+          .with(
+            body: { query: 'chinese art', hitsPerPage: 3 }.to_json,
+            headers: {
+              'X-Algolia-Application-Id' => 'PIE1C3NH1U',
+              'X-Algolia-API-Key' => '480a02dab26ec59589f37014e3fd2f59'
+            }
+          )
+      ).to have_been_made
+    end
+
+    context 'when the API returns an error' do
+      before do
+        stub_request(:post, algolia_url).to_return(status: 500, body: '{"message":"oops"}')
+      end
+
+      it 'raises NoResults' do
+        expect { service.search(query) }.to raise_error(AbstractSearchService::NoResults)
+      end
+    end
+
     context 'when the API responds with 403 Forbidden' do
       before do
-        stub_request(:get, /.*/).to_return(status: 403)
+        stub_request(:post, algolia_url).to_return(status: 403)
       end
 
       it 'raises the HTTP status error' do
