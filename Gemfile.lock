@@ -80,10 +80,10 @@ GEM
     airbrussh (1.6.2)
       sshkit (>= 1.6.1, != 1.7.0)
     ast (2.4.3)
-    axe-core-api (4.13.0)
+    axe-core-api (4.14.0)
       dumb_delegator
-    axe-core-rspec (4.13.0)
-      axe-core-api (= 4.13.0)
+    axe-core-rspec (4.14.0)
+      axe-core-api (= 4.14.0)
     base64 (0.3.0)
     bcrypt_pbkdf (1.1.2)
     benchmark (0.5.0)
@@ -137,7 +137,7 @@ GEM
       capistrano-one_time_key (>= 0.2.0)
       capistrano-shared_configs
       ed25519
-    domain_name (0.6.20260921)
+    domain_name (0.7.20261007)
     drb (2.2.3)
     dumb_delegator (1.1.0)
     ed25519 (1.4.0)
@@ -199,7 +199,7 @@ GEM
       drb (~> 2.0)
       prism (~> 1.5)
     msgpack (1.8.5)
-    net-imap (0.6.7)
+    net-imap (0.6.8)
       date
       net-protocol
     net-pop (0.1.2)
@@ -336,9 +336,9 @@ GEM
     rubocop-ast (1.50.0)
       parser (>= 3.3.7.2)
       prism (~> 1.7)
-    rubocop-capybara (3.0.0)
+    rubocop-capybara (3.1.0)
       lint_roller (~> 1.1)
-      rubocop (~> 1.81)
+      rubocop (~> 1.89)
     rubocop-factory_bot (2.28.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.72, >= 1.72.1)
@@ -364,8 +364,8 @@ GEM
       logger (~> 1.4)
       rubyzip (>= 1.2.2, < 4.0)
       websocket (~> 1.0)
-    sqlite3 (2.9.6-arm64-darwin)
-    sqlite3 (2.9.6-x86_64-linux-gnu)
+    sqlite3 (2.10.0-arm64-darwin)
+    sqlite3 (2.10.0-x86_64-linux-gnu)
     sshkit (1.25.1)
       base64
       logger
@@ -392,7 +392,7 @@ GEM
       actionview (>= 8.0.0)
       bindex (>= 0.4.0)
       railties (>= 8.0.0)
-    webmock (3.29.0)
+    webmock (3.34.0)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
@@ -452,4 +452,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-  4.0.22
+  4.0.23
